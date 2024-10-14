@@ -1,0 +1,52 @@
+== Entry 1 - 14 October, 2024 ==
+
+This marks the first entry in my journal for what I've taken to calling "Project Titov" en lieu of an actual title as of yet. Each of my projects (past the point when I adopted the naming convention, anyway) are codenamed after the first humans in space, in order, and so this project, my fourth under this scheme, is named in honour of Gherman Titov, fourth human being in space.
+
+As to what this project actually *is*, that's a little harder to describe. My goal here is to combine a few different fixations of mine into a single project. To wit:
+-- Complex systems collapse, as typified by the Late Bronze Age Collapse
+-- Engine-building/deck-building games
+-- Sid Meier's Civilization - style historical narrative
+-- Falling-forward, snowballing gameplay
+
+To that end, this project is a narrative deckbuilder based on the Late Bronze Age which will, most playthroughs, end in the player's defeat and demise at the hands of multiple overlapping crises, ranging from the military (the arrival of the Sea Peoples) to climactic (increased droughts in the Eastern Mediterranean) to biological (an outbreak of the Bubonic Plague). It should be noted that while I am using real-world analogues here, the game itself is not a work of history, and while each fictional society is based with varying degrees of fidelity on real-world cultures, I am deliberately taking significant liberties in making them more like composite societies than exact representations. 
+
+I want to unpack what I mean by "narrative deckbuilder" for a moment. In order to progress through the game, the player will be forced to deal with a deck of Milestones, comparable to the main story deck in a game like the Arkham Horror LCG from Fantasy Flight. The player will be able to deal with each of the Milestones at minimum one of two ways, each choice both branching the narrative of future Milestones as well as adding cards into the player's deck. For instance, the player's decision to adopt a nobles-on-chariots-based military will not only put the card "Noble Charioteers" in their deck, it will also lead to *other* future events, like those same nobles attempting to leverage their military strength into greater political influence. Additionally, the game will track how often certain cards are played in order to trigger *other* cards. For example, playing the "Tax Collection" card three times will add a "Peasant Unrest" Objective into the deck - harmless in itself, but potentially catastrophic if multiple are drawn at once, with unrest boiling over to open rebellion.
+
+As a rule, I want the player to be adding more and more cards to their deck and relatively rarely taking them out. Deck-thinning is a core element of most deckbuilders, but I want to use it sparingly to represent the sheer inertia that political institutions can develop over time. Backing out of the deal that you cut with the Priests of the Moon God will not be so easy as simply removing them from your deck, alas. 
+
+On a mechanical level, the cards in a player's deck will modify one of four resources, usually trading one off for another:
+-- Might, representing military strength
+-- Stability, representing political unity and bureaucratic capacity
+-- Food, representing taxes in the form of grain and livestock (the primary currency of the state in this era)
+-- Influence, representing prestige on the world stage and one's ranking relative to the other Great Powers.
+
+As an aside, I'm considering adding in a "Trade Goods" resource that only comes into play later to represent how these societies became increasingly economically interdependent in the years prior to the Collapse. I'm still undecided, to be honest. Four may be enough, and if I expand to five then why not six...? I may end up making an experimental version of the game with this rule implemented and just vibe out how it feels to play. 
+
+There is also a so-called "hidden" variable that I'm representing, if abstractly: state capacity, as represented by card draw. Generally, actions which increase the number of cards that a player draws per turn (and thus the number of options they have to resolve crises each turn) are narratively tied to increases or investments in state bureaucracy. This is also a double-edged sword, however - Misfortune cards which can lose the player the game get worse the more you draw at once. A top-heavy state bureaucracy can turn out to be as much curse as blessing.
+
+Final note to wrap this up and summarize some of the key changes / mechanics implementations I've done in the pre-MDM Before Times:
+
+1. Previously, all four resources ticked down by 1 every turn. Objectives were completed by "committing" resources, which would not be lost but had to be at a given threshold in order to complete the objective. This proved absolutely punishing at worst and needlessly complicated at best. Now, players simply pay resources, but don't lose them (usually) unless they choose to. This required a fair bit of rebalancing, but at least the game isn't punishingly unfair anymore. Just regular unfair.
+
+2. So far the element that people have enjoyed most is the fact that the world is quite dynamic. Nearly every Milestone and Objective that the player must complete is attached to a timer, giving the player only a certain number of turns to complete them until some negative event occurs. This has served both a tutorializing purpose ("What am I supposed to do?" - Complete these objectives!) and also a sense that the world is in constant motion. You aren't just launching a brutal raid against the Kingdom of the Cedars because you can (you monster), you're doing it because not doing so makes you look bad in front of the court and the community of Great Powers (you craven monster). 
+
+3. This sort of abstracted, longue-duree style historical storytelling has been really useful at telling the story of these cultures (or rather my fantasy interpretations thereof) in a compelling way, but it's also a necessarily top-down history in a way that I'm not entirely satisfied with. Common people more or less exclusively enter into the game as either obstacles or resources, never as fleshed-out people in their own right. I'd like to think of some kind of way to put a human face on the story the game is telling, but I'm honestly not really sure how to do it. Maybe this just isn't the game for that. 
+
+4. I'm at the point in the game's story where the player will start interacting with the other Great Powers of the Mediterranean, which is going to involve quite a lot of new cards and other mechanics being brought in, as well as the game's rather breakneck opening pace slowing down a fair deal before the endgame. I'm also at the same time reading Eric Cline's two books on the Bronze Age Collapse, "1177" and "After 1177" (thereby encompassing all of human history, one presumes) and want to get to Joseph Tainter's writings on complex social collapse as well. This will help inform my designs as I continue to work on them. 
+
+5. Purusant to 4, I also want to use the biggest narrative branches to explore different deck archetypes / meta-strategies in the way that Slay the Spire has, eg. "Demon Form" builds or "Poison" builds. Off the top of my head, here are the general deck concepts that spring to mind. 
+-- High-value-card deck (STS: Strength build)
+-- Hand manipulation deck (STS: Discard build)
+-- Card draw combo deck (STS: Adrenaline Rush builds)
+-- One-Trick-Pony deck (using a single resource for many different scenarios)
+-- Naval Power deck (taking few provinces but getting rich off of trade after Act 2)
+-- Land Power deck (taking many provinces with a large military)
+-- Self-damage/MTG "black" decks
+-- Levy-based, "Death by a thousand cuts" decks
+-- Time/Crisis manipulation decks
+
+I'm sure I'll increase this list over time, but keeping these archetypes in mind should help. 
+
+Signing off for now - will update more as I continue my research/design!
+
+
