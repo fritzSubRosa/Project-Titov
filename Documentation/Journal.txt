@@ -49,4 +49,42 @@ I'm sure I'll increase this list over time, but keeping these archetypes in mind
 
 Signing off for now - will update more as I continue my research/design!
 
+== Entry 2 - 17 October, 2024 ==
 
+Started Act 2 today and got another round of Act 1 Playtesting in. Some quick notes to myself so I don't forget where I'm going with this today:
+
+- Playtest summary
+-- Tutorialization
+-- Learning Curve
+-- Adapting to Digital
+- Act 2 Design
+-- Trade Goods 
+-- Card modification
+-- Onboarding
+-- Act 1 Denouement
+-- Subtype expansion / keywords
+-- Pharaoh will remember this
+
+Had a playtest with Morning Star here at TAG. She says she doesn't play many games, which is good as a baseline of how complex these systems actually are. I'm too close to the whole thing at this point so I've lost perspective. 
+
+Overall the playtest went well, she successfully completed all 4 milestones in the game so far (even if she sort of sprinted through to the end and might not have fared as well had the game continued past that point). I kept general strategic advice to a minimum, just drawing connections between cards and mechanics where appropriate. The learning curve of the game is pretty hardcore at this point, so a tutorial setup with a rigged opening hand and opening set of Objectives might be worthwhile. Maybe even dropping the Milestones altogether for the very first game. I'll try and put something together soon.
+
+That said, the game systems are strong enough that once she got the hang of the rhythm of the game she was able to make not just tactical but strategic decisions. Her feedback was consistent with what else I've received - the game is stressful but engaging, daunting at first but coherent once you wrap your head around it. I think I'll mess with M3 (Foreign Yoke) and M2 (Ways of War) a little bit - there's basically no reason to choose the preserve the old ways if you didn't already go Hill Country Archer. Maybe that's the point - it's the ahistorical path. Will see if some bright new ideas occur. 
+
+Other than the above, a major takeaway is that strong tooltip implementation is going to be incredibly important - especially nested tooltips. That will go a long way toward making the whole thing click a little better. Bookkeeping being done on the cards themselves will also be essential. I want to avoid the "Ahh.... right, forgot about that" response as much as possible.
+
+In terms of Act 2 Design, my major change is twofold. First, the world will open up slightly, giving the player a fourth Objective slot and therefore cycling the various world events faster. Second, new world events are going to be added, especially as regards to trading with other empires (or raiding them). The game will also add a fifth, rather unique resource - Trade Goods. This is meant to represent the fact that the Bronze Age Mediterranean was extremely interconnected, and that it was the collapse of those trade networks which heralded the demise not just of polities like the Hittite Empire, but of entire peoples. 
+
+To that end, the player will spend Trade Goods to either duplicate a card of a given subtype or amplify the effect of that card in perpetuity. Eg. the player will be able to spend (through a card) a trade good to make one of their Tax Collection cards gain 4 food instead of 2, at the cost of not only 1 Stability but now also 1 Trade Good. These numbers aren't quite final yet. I'm anticipating a slightly worse than 1:1 exchange rate for Trade Goods to Food, the ratio improving (at higher upfront cost) the further afield the player sources their goods. Tin for example was primarily mined in Badakhshan, in modern-day Afghanistan and traded overland across the Iranian plateau to Mesopotamia and then the Near East. 
+
+Crucially, Trade cards will be Seasonal - use them or lose them. Conversely, they will also reproduce themselves. Every 3 times a trade route is played, it will add a copy of itself into the deck. 
+
+Card modification is a very important part of most deckbuilders and one I want to mechanically represent, and I think this will allow me to implement in it a way that is ludonarratively compelling. Losing supplies of things like tin for bronze could be catastrophic for an army that has equipped its soldiery with state-of-the-art bronze weapons. As the player upgrades their cards to keep up with the ever-accelerating resource power curve, they will find themselves more and more dependent on trade - and more vulnerable should those arteries ever be cut by, say, a marauding band of Sea Peoples.
+
+Act 2 (or more precisely the very end of Act 1) will also begin introducing the major forms of narrative branching. I'm using a red exclamation point as the visual symbol that a choice specifically will cause consequences down the line but not in the immediately obvious sense of "Gain this bad card into your deck." Sort of a "Pharaoh will remember this" a la Telltale - a little reminder to keep that choice in mind.
+
+To make this all work, I've also embraced adding keywords to cards more as a way of anchoring card effects a little more concretely. Cards like Corvee and Volunteers currently use the very awkward "Troop" and "Non-Troop" phrasing. The new schema divides cards up much more explicitly into subtypes like Statecraft, Ma'at (harmony, order, cyclical time), and Industry. This will also open up an immediate design space unto itself - cards that affect a particular type or set of types, etc. Turn-based tactics games are often quite good at this - you look at something like Age of Wonders Planetfall and its units have large numbers of (intuitive!) subtypes. The existence of "Organic" units implies weapons that do more or less damage vs. Organics, and so on. My hope is that subtyping here will have a similar effect in clarifying the intended play patterns. 
+
+Overall big day, productive day, even if no testing of any of the new systems could be undertaken. I expect a couple more work days of both designing and then printing + manufacturing cards will be in store until I can get any kind of read on how/if Trade Goods or any of these other systems are working. 
+
+As a related note, physical prototyping is rapidly reaching a point of diminishing returns. I'll lean on some friends for some advice on how to make a basic visual scripting card game possible in Unity to hopefully speed up my dev time a little (or at least have that to run in parallel). 
