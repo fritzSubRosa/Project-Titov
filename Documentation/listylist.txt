@@ -1,0 +1,41 @@
+milestones
+objectives
+actions
+
+stall [x]
+immediate
+seasonal
+expendable
+retained
+mandatory
+disrupt [x]
+draw [x]
+improve
+crisis [x], [y:z]
+war [x], [y:z]
+project [x], [y:z]
+gain [resource or card]
+gain to hand
+spend [x]
+lose [x]
+[x] max
+destroy
+return
+food
+stability
+influence
+might
+trade goods
+fusion
+timer
+loop
+recur
+reshuffle
+advance
+clock
+
+statecraft
+troop
+ma'at
+industry
+province
