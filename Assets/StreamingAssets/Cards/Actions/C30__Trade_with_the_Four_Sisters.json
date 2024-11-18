@@ -1,0 +1,66 @@
+{
+    "code": "C30",
+    "revision": "",
+    "name": "Trade with the Four Sisters",
+    "subtypes": [],
+    "flavortext": "",
+    "war": false,
+    "warconditions": {
+        "forward": {
+            "resource": "might",
+            "amount": 1
+        },
+        "win": {
+            "description": "",
+            "gain": []
+        },
+        "lose": {
+            "description": "",
+            "gain": []
+        }
+    },
+    "fusion": "",
+    "cost": [
+        {
+            "resource": "food",
+            "amount": 0
+        },
+        {
+            "resource": "stability",
+            "amount": 0
+        },
+        {
+            "resource": "might",
+            "amount": 0
+        },
+        {
+            "resource": "influence",
+            "amount": 0
+        },
+        {
+            "resource": "tradegoods",
+            "amount": 0
+        }
+    ],
+    "actions": [
+        {
+            "name": "",
+            "description": [
+                "",
+                "",
+                ""
+            ]
+        }
+    ],
+    "effects": {
+        "timer": 0,
+        "endgame": false,
+        "return": false,
+        "description": "",
+        "gain": [
+            "C1",
+            "C1"
+        ],
+        "lose": []
+    }
+}

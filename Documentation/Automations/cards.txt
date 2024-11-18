@@ -1,0 +1,118 @@
+M1 - The Long Exile 
+M2 - Ways of War 
+M3 - Turn of the Wheel 
+M4 - The Siege of Esh-Edu
+M5 - Fate of the Wheel-Turners 
+M6 - Uniting the Two Lands 
+M7 - Act II 
+M8 - Across the Great Green 
+M9 - The Sun King 
+M10 - The Old Order 
+M11 - Groom of the Sun 
+M12 - Legacy of the Sun King 
+M15 - Shadow of the Sun King 
+M18 - EMPTY 
+M19 - Gold Legacy 
+M20 - Conqueror Legacy 
+C1 - Tax Collection 
+C2 - Conscription 
+C3 - Levy Infantry 
+C4 - Public Rituals 
+C5 - Diplomatic Overtures 
+C6 - State Rituals 
+C7 - Royal Guard 
+C8 - Court Intrigue 
+C9 - Corruption 
+C10 - Blood Money 
+C11 - Hill Country Conscription 
+C12 - Hill Country Couriers 
+C13 - Hill Country Archers 
+C14 - Exorbitant Gift 
+C15 - Border Fort 
+C16 - Trading Post 
+C17 - Moon God Sacrifices 
+C18 - Corvee 
+C19 - Volunteers 
+C20 - Seditious Priests 
+C21 - Cataracts Vassal 
+C22 - Cataracts Vassal
+C23 - Sable Coast Vassal 
+C24 - Sable Coast Vassal 
+C25 - Cedars Vassal 
+C26 - Cedars Vassal
+C27 - Noble Charioteers 
+C28 - Trade with the Mural-Painters 
+C29 - Trade with the Storm-Followers 
+C30 - Trade with the Four Sisters 
+C31 - Trade with the River-Crossers 
+C32 - Trade with the Lord of Bulls 
+C33 - Trade with the Deep Desert 
+C34 - Trade with the Lapis-Miners 
+C35 - Trade with the Barrow-Builders 
+C36 - Trade with the Orange-Planters 
+C37 - EMPTY
+C38 - EMPTY 
+C39 - Wheel-Turner Diplomats 
+C40 - Royal Flagship 
+C41 - Naval Patrol
+C42 - Sun King's Decree 
+C43 - EMPTY 
+C44 - Sun King's Heralds 
+C45 - Zealous Administration 
+O1 - Ritualized Taxation 
+O2 - Peasant Unrest 
+O3 - Uncertain Succession 
+O4 - Civil War 
+O5 - At Sun's Edge 
+O6 - Moon God's Blessings 
+O7 - Debt Jubilee 
+O8 - Raise Moon Temple 
+O9 - Moon Temple 
+O10 - Plague 
+O11 - Raid Beyond the Cataracts 
+O12 - Raid the Sable Coast Princes
+O13 - Raid the Cedar Kings 
+O14 - War Beyond the Cataracts 
+O15 - War with the Sable Coast 
+O16 - War with the Cedar King 
+O17 - Dynasty Triumphant 
+O18 - Conduct Census 
+O19 - Raise Stele 
+O20 - Royal Stele 
+O21 - Raise Grand Monument 
+O22 - Grand Monument 
+O23 - Peasant Uprising 
+O26 - Envoy from the Mural-Painters 
+O27 - Envoy from the Storm-Followers 
+O28 - Envoy from the Four Sisters 
+O29 - Envoy from the River-Crossers 
+O30 - Envoy from the Lord of Bulls 
+O31 - Envoy from the Deep Desert 
+O35 - Consolidation 
+O36 - Border Raid 
+O37 - Enemy Invades!
+O38 - Capital besieged! 
+O39 - Whispers of Treason 
+O40 - Seditious Conspiracy 
+O41 - Palace Coup 
+O42 - Crop Failure 
+O43 - Famine 
+O44 - Desolation 
+O45 - Diplomatic Incident 
+O46 - Foreign Claimant 
+O47 - Vassalization 
+O48 - Thunderheads 
+O49 - Chain Lightning
+O50 - Distant Thunder 
+O51 - Plague Ships 
+O52 - Waylaid Shipping 
+O53 - Bride and Prejudice 
+O54 - Distant Thunder
+O55 - Build Eternal Pyre 
+O56 - Fuel Eternal Pyre 
+O57 - Eternal Pyre
+O58 - War with the Storm-Followers 
+O59 - War with the Mural-Painters 
+O60 - War with the Four-Sisters 
+O61 - Oil Lamp Workshop 
+O62 - Bronze Foundry 
