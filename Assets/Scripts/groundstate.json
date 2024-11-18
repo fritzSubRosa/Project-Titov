@@ -1,0 +1,15 @@
+﻿{
+    "phase" : 0, 
+    "resources" : {
+        "food" : 0, 
+        "influence" : 0,
+        "stability" : 0,
+        "might": 0
+    },
+    "max_resources" : {
+        "food" : 4, 
+        "influence" : 4,
+        "stability" : 4,
+        "might": 4
+    }
+}
