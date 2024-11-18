@@ -11,16 +11,17 @@ Stephen's MA Thesis
 	- @Stephen if you agree to move the core documentation in this folder, don't make any new changes in the google doc and lemme know if you do change anything. If we agree on this, please delete this entire bullet with all the sub-bullets. 
 
 ## Index 
-1. [Features](./Features.MD) 
-2. [Rules](./Rules.MD) -- might be deprecated and overridden by the ones in this file
-3. [Core Mechanics](#Core-Mechanics)
-4. [Play Areas](#Play-Areas)
-5. [Cards](#Cards)
+1. [Features](./Features.MD)
+2. [Questions](./Questions.MD) -- file for us to leave questions to be answered later or by the other. 
+3. [Rules](./Rules.MD) -- might be deprecated and overridden by the ones in this file
+4. [Core Mechanics](#Core-Mechanics)
+5. [Play Areas](#Play-Areas)
+6. [Cards](#Cards)
 	1. [Card Types](#Types)
 	2. [Card Subtypes](#Subtypes)
 	3. [Keywords](#Keywords)
 	4. [List of Cards](#List-of-Cards)
-6. [Phases](#Phases)
+7. [Phases](#Phases)
 	1. [Action Phase](#Action-Phase)
 	2. [Crisis Phase](#Crisis-Phase)
 	3. [Reset Phase](#Reset-Phase)
