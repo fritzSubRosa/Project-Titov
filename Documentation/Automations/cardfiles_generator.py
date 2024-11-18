@@ -2,6 +2,7 @@ import json
 import os 
 
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
+CARD_FILE_NAME = "cards.txt"
 CARD_STRUCTURE = {
     "code": "",
     "revision" : "", # these are stephen's internal version numbers as he appends to the end of the code. 
@@ -61,11 +62,11 @@ CARD_STRUCTURE = {
 
 
 
-
 '''
+Algorithm 
 1. Read file with name of cards 
 2. use code to determine type (C for Action, O for Objective, and M for milestone)
-3. Create a JSON file for each - File name should be CARDCODE__CARD_NAME
+3. Create a JSON file for each - File name should be CARDCODE__CARD_NAME, in its own folder. 
 '''
 
 def WriteJSON(filename):
@@ -99,20 +100,19 @@ def WriteJSON(filename):
 def Main():
     global CARD_STRUCTURE
 
-    cards_list = open("cards.txt")
+    cards_list = open(CARD_FILE_NAME)
 
     for line in cards_list: 
         line_split = line.strip().split(" - ")
         CARD_STRUCTURE["code"] = line_split[0].strip()
         CARD_STRUCTURE["name"] = line_split[1].strip()
 
-        filename = line_split[0].strip() + "__" + line_split[1].strip().replace("'", "").replace(" ", "_") + ".json"
-        WriteJSON(filename)
+        new_file = line_split[0].strip() + "__" + line_split[1].strip().replace("'", "").replace(" ", "_") + ".json"
+        WriteJSON(new_file)
 
     cards_list.close()
 
 
 
+# run
 Main()
-    
-
