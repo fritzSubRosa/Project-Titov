@@ -1,4 +1,6 @@
 # Rules
+
+@stephen, is this still valid or is the one in the Readme more updated? 
 ## Game Setup 
 Set aside the Resource Tracker cards. Place them face up with 3 cubes of their respective colors (Red for Might, Blue for Stability, Yellow for Influence, and Green for Food). These will henceforth be known as Resources.
 - Place card M1 "The Upper Cataracts" face up. Place a d6 on this card set to the number next to the hourglass symbol at the bottom of the card. 

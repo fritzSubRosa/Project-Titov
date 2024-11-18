@@ -25,7 +25,8 @@ Stephen's MA Thesis
 	1. [Action Phase](#Action-Phase)
 	2. [Crisis Phase](#Crisis-Phase)
 	3. [Reset Phase](#Reset-Phase)
-
+8. [System](./Systems.MD) -- This is for MSA to think through the implementation 
+9. [State](./State.MD) -- This is for a place to think about what will be the state to track, save, load, reset. 
 ## Core Mechanics 
 1. Cards
 	1. Drawing a card 
