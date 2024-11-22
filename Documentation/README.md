@@ -6,9 +6,9 @@ Stephen's MA Thesis
 	- Need a design for the way the screen should look. 
 - Core documentation [**here** ](https://docs.google.com/document/d/1GVJo-9sSJmY4QaGXMs7jXraMOZ1r0mvQSRll1GaJVhc/edit?tab=t.0)
 	- This has been written down in this file and should be considered deprecated. 
-	- @Stephen please validate if I've made mistakes and then remove this line. 
-	- If Stephen is writing his journal entries here, we can treat the documentation folder as an obsidian vault and go MD-native. @Stephen, if you agree, please convert your journal to an MD file, open this folder as an Obsidian vault, and then delete this line. 
 	- @Stephen if you agree to move the core documentation in this folder, don't make any new changes in the google doc and lemme know if you do change anything. If we agree on this, please delete this entire bullet with all the sub-bullets. 
+- Note [[Rules]] MIGHT BE OBSOLETE 
+- 
 
 ## Index 
 1. [Features](./Features.MD)
@@ -32,36 +32,60 @@ Stephen's MA Thesis
 	1. Drawing a card 
 	2. Playing a card 
 	3. Card Effects 
-	4. Adding new cards 
+	4. Gaining Cards
 2. Resources 
-	1. Gaining resource
+	1. Gaining Resource
 	2. Losing Resource
+	3. Spending Resource
 3. Timers 
-	1. Triggering Timers 
+	1. Triggering Timers  -- What do you mean by this?
 	2. Advancing timers 
 4. Objectives
 	1. Resolving Objectives (progressing in story)
-
-## Play Areas 
-1. Agenda 
-	1. The space at the *top of the screen* with slots for **Objectives**
-	2. Starts with 3 slots, and increases over time.  
-2. Hand 
-	1. The set of **available Action Cards**. 
-	2. Indicated at the *bottom of the screen* 
-3. Action Deck 
-	1. The action cards that are yet to be drawn. 
-	2. Can be looked at, but the order is obscured. 
-4. Milestone Deck 
-	1. The Milestone cards that have yet to enter play 
-	2. Not Searchable.
-5. Milestone Discard 
-	1. Where Milestones that have been resolved in the **Crisis Phase** go during the **Reset Phase**.
-6. Objective Deck 
-	1. The Objective Cards that have yet to enter play. 
-	2. Not Searchable 
-7. Objective Discard 
-	1. Where objective cards that have been resolved in the **Crisis Phase** go during the **Reset Phase**
+5. ## Game Setup 
+## Timing Structure
+1. Action Phase
+	1. The only phase in which the player may play **Action Cards**, unless otherwise indicated. Progresses as follows. 
+	2. Draw 5 **Action Cards**
+		1. This amount can increase or decrease due to temporary or permanent effects.
+	3. Play a card from hand, doing the following in order:
+		1. **Spend** the **resource** in the top-right hand corner of the **Action Card**
+		2. If the **Action Card** has the **Province** subtype, check if the printed inequality is true.
+			1. If it is true, resolve the indicated effect.
+			2. If it is not true, resolve the "ELSE" effect
+		3. Gain **resources** or **cards**, as appropriate.
+		4. If there is a **clock** on the card, **advance** it.
+			1. If the **clock** is full, resolve the indicated effect, then empty the **clock**.
+		5. If the card has the **Expendable** subtype, **destroy** it.
+	4. The player may repeat step 3 as many times as they have **Action Cards** in **hand** or choose to end their **Action Phase**. When the player ends their **Action Phase**, proceed to step 5.
+		1. They may not end their **Action Phase** if there are any any **Action Cards** with the **Mandatory** subtype in their **hand**. 
+	5. When the player ends their **Action Phase**, do the following in order:
+		1. Resolve any **Retained** effects on **Action Cards** still in the **hand**.
+		2. **Destroy** any **Action Cards** that have the **Seasonal** subtype.
+		3. Move all remaining **Action Cards** in hand into the **Action Discard**.
+		4. Proceed to the **Crisis Phase**.
+2. Crisis Phase
+	1. During the **Crisis Phase**, the player may take a **Resolution** to any number of **Objectives** or **Milestones**, provided they satisfy the **Resolution Requirements** thereof.
+		1. **Objectives** and **Milestones** can be resolved one of three ways: by the player **spending** **resources**, performing a certain task during their previous **Action Phase** or by achieving a given game state. Examples of each are given below.
+			1. *Spending Resources*: The player may **spend** 4 **Influence** to resolve M1: The Long Exile by choosing the "Enlist their soldiers" **Resolution**. Alternatively, they may **Spend** 4 **Stability** to resolve the **Milestone** with the "Integrate their nobility" **Resolution**.
+			2. *Achieving Game State*: The player may resolve M3: The Turn of the Wheel with the "Gather a coalition" **Resolution** by **controlling** 3 **Action Cards** with the **Province** subtype. 
+			3. *Achieving a Task*: The player may resolve O1: Ritualized Taxation if, during their previous **Action Phase**, they gained at least 2 **Food** and 1 **Stability** by taking the "Organize annual tithes" **Resolution.**
+		2. Once a **Resolution** has been taken, its effects take place immediately.
+			1. When a player resolves an **Objective** or **Milestone**, they immediately gain any indicated **Resources**, **Action Cards**, or **Objectives**. This means the player may use resources gained by resolving one **Objective** to resolve another during the same **Crisis Phase**. 
+				1. Eg. Hatshepsut wishes to resolve O7: Debt Jubilee by taking the "Forgive Peasant Debts" option. However, she lacks the **Food** to do so. O11: Raid Beyond the Cataracts is also in her **Agenda**, however, and she has enough **Might** to resolve it by taking the "Lead a punitive expedition" **Resolution**. She therefore resolves O11: Raid beyond the Cataracts first, gaining 4 **Food.** She then spends 3 of that **Food** to take the "Forgive peasant debts" **Resolution** of O7: Debt Jubilee and gain one **Stability**.
+			2. If the chosen **Resolution** contains the **return** (↩️) symbol, the **Objective** is placed in the **Objective Discard.** Otherwise, it is **destroyed.**
+		3. The player may choose to end their **Crisis Phase** at any time. When they do, proceed to the **Reset Phase**.
+3. Reset Phase (Note: Digitally, this should all be automatic)
+	1. Perform the following, in order:
+		1. **Advance** the **timer** on every **Milestone** and **Objective** still in play. 
+		2. If **advancing** the timer of an **Objective** or **Milestone would** fill it, do the following:
+			1. *Milestone*: Perform the action indicated next to the **timer**. Then, empty the **timer**. Do not remove the **Milestone**. Do not draw an additional **Milestone**.
+				1. Eg. If the player does not take either **Resolution** to M1: The Long Exile in 3 turns, they **gain** a copy of Border Raid to their **Objective Discard.** The **timer** is then reset back to 0.
+			2. *Objective*: Perform the action indicated next to the **timer**. If this text contains the **return** symbol (↩️), move the **Objective** to the **Objective Discard.** Otherwise, **destroy** the **Objective.**
+		3. If there is no active **Milestone**, reveal the top card of the **Milestone Deck**.
+		4. Fill each empty space in the **Agenda** by drawing a card off the top of the **Objective Deck** and placing it in the **Agenda** face up. 
+			1. If the **Objective Deck** is empty, shuffle the **Objective Discard** and place it face down as a new **Objective Deck.** Then, resume the above. 
+		5. Resume play with the next turn's **Action Phase.**
 
 ## Cards
 ### Types
@@ -112,63 +136,92 @@ Stephen's MA Thesis
 	3. Professional troops have **retained** costs - fail to pay them at your peril. 
 
 ### Keywords
-1. Advance 
+1. Action Deck 
+	1. The **Action Cards** that are yet to be drawn. 
+	2. Can be looked at, but the order is obscured. 
+3. Advance 
 	1. Fill in one slice of an active **timer** or **clock**
-2. Bank 
+4. Agenda 
+	1. The space at the *top of the screen* with slots for **Objectives**
+	2. Starts with 3 slots, and increases over time.  
+5. Bank 
 	1. The player's current amount of each resource 
-3. Clock 
+6. Control
+	1. The player **controls** all **Action Cards** which are in the **Action Deck**, **Hand**, and **Action Discard**.
+7. Clock 
 	1. A pie-chart divided into 2, 3, 4, or 6 slices 
 	2. Has an effect when full. 
 	3. Can be **advanced** by certain card effects 
 	4. When on an Action Card, generally indicates the number of times that card (by card name) has been played.  
-4. Crisis `[x], [y:z], [⏳:a]`
+8. Crisis `[x], [y:z], [⏳:a]`
 	1. A political conflict
 	2. Measured on a scale of 0 to 6-10, starting at `x`. 
 	3. Decreases by `a` every turn. 
 	4. Increases by `z` for every `y` of a resource spent.
-5. Delay `[x]`
+9. Delay `[x]`
 	1. Reduce the progress of any **timer** by 1, `x` number of times. 
-6. Destroy 
+10. Destroy 
 	1. Permanently remove this card from play 
-7. Disrupt `[x]`
+11. Disrupt `[x]`
 	1. Discard the top `x` cards of the **Action Deck** 
-8. Draw `[x]`
+12. Draw `[x]`
 	1. Add the top `x` cards of the **Action Deck** to the **Hand** 
-9. Foresee `[x]`
-	1. Look at the top `x` cards of the **Objective Deck**
-	2. You may place one of these cards on the bottom of the **Objective Deck**
-10. Fusion `[x]`
+13. Foresee `[x]` -- swapped with "Scout"
+	1. Look at the top `x` cards of the **Action Deck**
+	2. You may add one of these cards to **hand**.
+14. Escalation `[x]` -- NB this has been renamed from "Fusion" to "Escalation." It is mechanically exactly the same.
 	1. If 2 cards of the same name with fusion are in the **Agenda** at the same time, they are both **destroyed** and **replaced** by one copy of `x`. 
 	2. Draw an additional **Objective** to fill any ensuing empty space in the **Agenda**. 
-11. Gain `[`resource or card`]`
+15. Gain `[`resource or card`]`
 	1. *Gain Resource:* 
 		1. Increase the bank of the indicated **resource** by the indicated amount. 
 		2. Any amounts above the **max** are lost. 
 	2. *Gain action card:*
-		1. Add the indicated card to the **Action Deck**
-	3. *Gain objective card:*
+		1. Add the indicated card to the **Action Discard**
+	3. *Gain action card to hand*
+		1. Add the indicated card to the **hand**
+	4. *Gain objective card:*
+		1. Add the indicated card to the **Objective Discard**
+	5. *Gain objective card to deck*
 		1. Add the indicated card to the **Objective Deck**
-12. Gain `[x]` to hand 
+16. Gain `[x]` to hand 
 	1. Add the indicated card to **hand**. 
-13. Immediate 
+17. Hand 
+	1. The array of **available Action Cards**. 
+	2. Indicated at the *bottom of the screen*.
+18. Immediate 
 	1. Resolve this effect as soon as the card is **drawn** (for Action Cards) or placed in the **agenda** (for Objectives)
-14. Improve
-	1. Increase the **resources** produced by this card by 2. 
+19. Improve
+	1. Increase the **resources** produced by this card by 2. -- NB this may no longer be true, but keep it for now.
 	2. The card now also costs 1 **trade good** to play. 
-15. Loop(♻️)
+20. Loop(♻️)
 	1. When this **timer** is full, empty it. 
 	2. Do not remove the card from play. 
-16. Lose `[x]`
+21. Lose `[x]`
 	1. Reduce the indicated **resource bank** by the indicated amount. 
 	2. If this would make the **bank** negative, add one **Misfortune** of that resource type for each **resource** the **bank** would be in deficit of.  
-	3. Misfortunes: 
-		1. Might - "Border Raid"
-		2. Influence - "Diplomatic Incident"
-		3. Food - "Crop Failure"
-		4. Stability - "Whispers of Treason"
-17. Replace 
+22. Misfortunes
+	1. An **Objective Card** representing an acute, potentially escalating, crisis. Each is associated with a specific **Resource**. When a player would **lose** a **resource** they do not have, they **gain** a copy of the card associated with that **resource** to their **Objective Discard.**
+		1. **Might** - "Border Raid"
+		2. **Influence** - "Diplomatic Incident"
+		3. **Food** - "Crop Failure"
+		4. **Stability** - "Whispers of Treason"
+24. Milestone Deck 
+	1. The **Milestone Cards** that have yet to enter play 
+	2. Not Searchable.
+25. Milestone Discard 
+	1. Where **Milestones** that have been resolved in the **Crisis Phase** go during the **Reset Phase**.
+	2. Searchable
+26. Objective Deck 
+	1. The **Objective Cards** that have yet to enter play. 
+	2. Not searchable
+27. Objective Discard 
+	1. Where **Objective Cards** are sent if they either have the **return** keyword or have been **gained** due to a card effect. 
+28. Recur `[x]`
+	1. Add `x` cards from the **Action Discard** to the **Hand**. 
+29. Replace 
 	1. **Destroy** this card and place the indicated card in its place. 
-18. Resources 
+30. Resources 
 	1. Food (🌾)
 		1. Essential for the life of body and state alike. 
 		2. Generally gained through **Statecraft** or **Provinces**
@@ -184,33 +237,36 @@ Stephen's MA Thesis
 	5. Trade Goods 
 		1. Tin, gold, copper - The essentials of sophisticated economic life. 
 		2. Generally gained through Trade. 
-19. Recur `[x]`
-	1. Add `x` cards from the **Action Discard** to the **Hand**. 
-20. Reshuffle `[x]`
+
+31. Reshuffle `[x]`
 	1. Shuffle `x` **Action Cards** from the **Action Discard** into the **Action Deck**
-21. Return (↩️)
+32. Resolution
+	1. A course of action, indicated on an **Objective** or **Milestone** by a gray gray background and black border. Each **Resolution** has **Resolution Requirements** and one or more effects.
+33. Resolution Requirements
+	1. A statement that determines if a given **Resolution** can be taken by the player during their **Crisis Phase**. Can involve the player **spending** **resources**, having certain **Action Cards** in their **control**, or performing a certain task during their previous **Action Phase.**
+34. Return (↩️)
 	1. Add this card to the **Objective Discard**
-22. `[x]` Max 
+35. `[x]` Max 
 	1. The maximum amount of `x` **Resources** that the **bank** can contain. 
 	2. **Resources** gained above this amount are lost. 
-23. Project `[x],[y:z]`
+36. Project `[x],[y:z]`
 	1. A long-term effort, measured on a scaled from 0 to `x`, usually 8 - 10. 
 	2. Starts at 0. 
 	3. Expending `y` of a **resource** yields `z` progress. 
 	4. When full, usually **replaced** by another card.  
-24. Reshuffle `[x]`
+37. Reshuffle `[x]`
 	1. Shuffle `x` cards from the **Action Discard** into the **Action Deck**. 
-25. Retained 
+38. Retained 
 	1. Resolve this effect if the card is still in **hand** and the end of the **Action Phase**
-26. Scout `[x]`
-	1. Look at the top `x` cards of the **Action Deck**. You may add one of these cards to **hand**.
-27. Spend `[x]`
+39. Scout `[x]`
+	1. Look at the top `x` cards of the **Objective Deck**. You may place one of these cards on the bottom of the **Objective Deck**
+40. Spend `[x]`
 	1. Reduce the **bank** of the indicated resource by `x`
 	2. You may not **spend resources** you do not possess. 
 	3. But you can **lose** more than you possess. 
-28. Timer (⏳)
+41. Timer (⏳)
 	1. A **clock** that progresses by 1 every **Reset Phase**
-29. War `[x], [y:z], [a]`
+42. War `[x], [y:z], [a]`
 	1. An armed conflict measured on a scale of 0 to 4-10.
 	2. Starts at `x`
 	3. Decreases by `a` every turn
@@ -338,51 +394,3 @@ Stephen's MA Thesis
 	55. O60 - War with the Four-Sisters 
 	56. O61 - Oil Lamp Workshop 
 	57. O62 - Bronze Foundry 
-
-
-## Phases 
-### Action Phase
-The only phase in which the player may play Action Cards, unless otherwise indicated. Progresses as follows.
-
-1. Draw **5** cards 
-2. Play card from **hand**, doing the following in order:
-	1. **Spend** the **resource** in the top-right hand corner of the card 
-	2. If the card is a **Province**, check if the printed inequality is true  
-		1. If it is true, resolve the given effect  
-		2. If it is not true, resolve the "ELSE" effect  
-	3. **Gain resources**, as appropriate
-	4. Resolve any additional card effects, as appropriate.  
-	5. If there is a **clock** on the card, **advance** it.  
-		1. If the **clock** is full, resolve the indicated effect, then empty it.  
-	6. If the card is **Expendable**, **destroy** it.
-3. Repeat the above steps any number of times until the player chooses to end their **Action Phase**.   
-	- N.B. the player may not end their **Action Phase** if they have any **Mandatory** cards in hand. They must play all **Mandatory** cards.  
-4. At the end of the **Action Phase**, resolve any **Retained** effects of cards still in **hand**.  
-5. Discard all remaining cards in hand.
-
-### Crisis Phase 
-1. Spend **resources** from their **banks** to resolve **Objective** or **Milestone Cards** depending on their type.  
-	1. *Projects*: **Spend** indicated **resources** to **advance** the **project** the indicated amount. If the **project clock** is full, resolve its effect.  
-	2. *Wars/Crises*: **Spend** indicated **resources** to **advance** the **war** the indicated amount. If the **war/crisis clock** is full, resolve its effect.  
-	3. *Dilemmas*: **Spend** the indicated **resources** to resolve a given path of a **dilemma** and resolve its effects.   
-	    1. Eg. Choosing the "Pay them off" path of "Border Raid" (O36) requires the player to **spend** one **food**. They then **gain** the "Blood Money" **action card** by adding it to their **action discard**. Because the card does not say **return (↩️)**, it is **destroyed**.  
-3. If resolving an **Objective** or **Milestone** causes the player to **gain resources**, they may use those **resources** to resolve other **Objectives or Milestones** in the same **Crisis Phase**. (e.g. "Daisy Chaining").   
-    1. E.g. If the player with 0 **food** in their **bank** resolves "Raid Beyond the Cataracts" (O11) by **spending** 3 **might**, they instantly **gain** 4 **food**. If "Debt Jubilee" (O7) is currently in the **Agenda**, the player may immediately **spend** 3 of the **food** they just gained to resolve the "Forgive peasant debts" path of "Debt Jubilee."  
-4. Once an **Objective** or **Milestone** has been resolved, do the following:   
-    1. If the **Objective** path chosen contains the **return (↩️)** keyword, move the **Objective** into the **Objective Discard**, leaving an empty space in the **Agenda**.   
-    2. If the **Objective** path chosen does not contain the **return (↩️)** keyword, **destroy** the **Objective** card, leaving an empty space in the **Agenda**.  
-    3. If the resolved card was a **Milestone**, place it in the **Milestone Discard**. Do not draw another **Milestone** until the **Reset Phase.**  
-5. The player may repeat the above any number of times. Once they no longer wish to continue, they may end their **Crisis Phase**. Proceed to the **Reset Phase**
-
-### Reset Phase 
-
-Do the following, in order:  
-  1. **Advance** the **timer** on every **Milestone** and **Objective** that is still in play (i.e. was not resolved during the previous **Crisis Phase**)  
-  2. If **advancing** the **timer** on a **Milestone** or **Objective** fills it, do the following:  
-	  1. *Milestone*: Resolve the text next to the **timer**. Then, empty the **timer**. Do not remove the **Milestone**. Do not draw an additional **Milestone**. 
-	  2. *Objective*: Resolve the text next to the **timer**. If the text says **return** (↩️)  
-  3. If there is no active **Milestone**, reveal the top card of the **Milestone Deck**  
-  4. Fill each empty space in the **Agenda** by drawing a card off of the **Objective Deck** and placing it face up.   
-	  1. If the **Objective Deck** is empty, shuffle the **Objective Discard** and place it face down as a new **Objective Deck**. Then, resume the above. 
-  5. Resume play with the next turn's **Action Phase**.
-
