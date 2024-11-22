@@ -5,11 +5,7 @@ Stephen's MA Thesis
 - Figma Designs [**here**](https://www.figma.com/files/team/1361752131146014945/project/291665647/Titov?fuid=1112098330417764190)
 	- Need a design for the way the screen should look. 
 - Core documentation [**here** ](https://docs.google.com/document/d/1GVJo-9sSJmY4QaGXMs7jXraMOZ1r0mvQSRll1GaJVhc/edit?tab=t.0)
-	- This has been written down in this file and should be considered deprecated. 
-	- @Stephen if you agree to move the core documentation in this folder, don't make any new changes in the google doc and lemme know if you do change anything. If we agree on this, please delete this entire bullet with all the sub-bullets. 
-- Note [[Rules]] MIGHT BE OBSOLETE 
-- 
-
+	- This has been written down in this file and should be considered deprecated.  
 ## Index 
 1. [Features](./Features.MD)
 2. [Questions](./Questions.MD) -- file for us to leave questions to be answered later or by the other. 
