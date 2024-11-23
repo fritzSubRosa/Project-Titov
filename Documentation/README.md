@@ -142,33 +142,39 @@ Stephen's MA Thesis
 	2. Starts with 3 slots, and increases over time.  
 5. Bank 
 	1. The player's current amount of each resource 
-6. Control
+6. Calamity
+	1. An **Objective Card** representing an acute, potentially escalating, crisis. Each is associated with a specific **Resource**. When a player would **lose** a **resource** they do not have, they **gain** a copy of the Calamity associated with that **resource** to their **Objective Discard.**
+		1. **Might** - "Border Raid"
+		2. **Influence** - "Diplomatic Incident"
+		3. **Food** - "Crop Failure"
+		4. **Stability** - "Whispers of Treason"
+7. Control
 	1. The player **controls** all **Action Cards** which are in the **Action Deck**, **Hand**, and **Action Discard**.
-7. Clock 
+8. Clock 
 	1. A pie-chart divided into 2, 3, 4, or 6 slices 
 	2. Has an effect when full. 
 	3. Can be **advanced** by certain card effects 
 	4. When on an Action Card, generally indicates the number of times that card (by card name) has been played.  
-8. Crisis `[x], [y:z], [⏳:a]`
+9. Crisis `[x], [y:z], [⏳:a]`
 	1. A political conflict
 	2. Measured on a scale of 0 to 6-10, starting at `x`. 
 	3. Decreases by `a` every turn. 
 	4. Increases by `z` for every `y` of a resource spent.
-9. Delay `[x]`
+10. Delay `[x]`
 	1. Reduce the progress of any **timer** by 1, `x` number of times. 
-10. Destroy 
+11. Destroy 
 	1. Permanently remove this card from play 
-11. Disrupt `[x]`
+12. Disrupt `[x]`
 	1. Discard the top `x` cards of the **Action Deck** 
-12. Draw `[x]`
+13. Draw `[x]`
 	1. Add the top `x` cards of the **Action Deck** to the **Hand** 
-13. Foresee `[x]` -- swapped with "Scout"
+14. Foresee `[x]` -- swapped with "Scout"
 	1. Look at the top `x` cards of the **Action Deck**
 	2. You may add one of these cards to **hand**.
-14. Escalation `[x]` -- NB this has been renamed from "Fusion" to "Escalation." It is mechanically exactly the same.
+15. Escalation `[x]` -- NB this has been renamed from "Fusion" to "Escalation." It is mechanically exactly the same.
 	1. If 2 cards of the same name with fusion are in the **Agenda** at the same time, they are both **destroyed** and **replaced** by one copy of `x`. 
 	2. Draw an additional **Objective** to fill any ensuing empty space in the **Agenda**. 
-15. Gain `[`resource or card`]`
+16. Gain `[`resource or card`]`
 	1. *Gain Resource:* 
 		1. Increase the bank of the indicated **resource** by the indicated amount. 
 		2. Any amounts above the **max** are lost. 
@@ -180,44 +186,38 @@ Stephen's MA Thesis
 		1. Add the indicated card to the **Objective Discard**
 	5. *Gain objective card to deck*
 		1. Add the indicated card to the **Objective Deck**
-16. Gain `[x]` to hand 
+17. Gain `[x]` to hand 
 	1. Add the indicated card to **hand**. 
-17. Hand 
+18. Hand 
 	1. The array of **available Action Cards**. 
 	2. Indicated at the *bottom of the screen*.
-18. Immediate 
+19. Immediate 
 	1. Resolve this effect as soon as the card is **drawn** (for Action Cards) or placed in the **agenda** (for Objectives)
-19. Improve
+20. Improve
 	1. Increase the **resources** produced by this card by 2. -- NB this may no longer be true, but keep it for now.
 	2. The card now also costs 1 **trade good** to play. 
-20. Loop(♻️)
+21. Loop(♻️)
 	1. When this **timer** is full, empty it. 
 	2. Do not remove the card from play. 
-21. Lose `[x]`
+22. Lose `[x]`
 	1. Reduce the indicated **resource bank** by the indicated amount. 
-	2. If this would make the **bank** negative, add one **Misfortune** of that resource type for each **resource** the **bank** would be in deficit of.  
-22. Misfortunes
-	1. An **Objective Card** representing an acute, potentially escalating, crisis. Each is associated with a specific **Resource**. When a player would **lose** a **resource** they do not have, they **gain** a copy of the card associated with that **resource** to their **Objective Discard.**
-		1. **Might** - "Border Raid"
-		2. **Influence** - "Diplomatic Incident"
-		3. **Food** - "Crop Failure"
-		4. **Stability** - "Whispers of Treason"
-24. Milestone Deck 
+	2. If this would make the **bank** negative, add one **Calamity** of that resource type for each **resource** the **bank** would be in deficit of.  
+23. Milestone Deck 
 	1. The **Milestone Cards** that have yet to enter play 
 	2. Not Searchable.
-25. Milestone Discard 
+24. Milestone Discard 
 	1. Where **Milestones** that have been resolved in the **Crisis Phase** go during the **Reset Phase**.
 	2. Searchable
-26. Objective Deck 
+25. Objective Deck 
 	1. The **Objective Cards** that have yet to enter play. 
 	2. Not searchable
-27. Objective Discard 
+26. Objective Discard 
 	1. Where **Objective Cards** are sent if they either have the **return** keyword or have been **gained** due to a card effect. 
-28. Recur `[x]`
+27. Recur `[x]`
 	1. Add `x` cards from the **Action Discard** to the **Hand**. 
-29. Replace 
+28. Replace 
 	1. **Destroy** this card and place the indicated card in its place. 
-30. Resources 
+29. Resources 
 	1. Food (🌾)
 		1. Essential for the life of body and state alike. 
 		2. Generally gained through **Statecraft** or **Provinces**
@@ -234,35 +234,35 @@ Stephen's MA Thesis
 		1. Tin, gold, copper - The essentials of sophisticated economic life. 
 		2. Generally gained through Trade. 
 
-31. Reshuffle `[x]`
+30. Reshuffle `[x]`
 	1. Shuffle `x` **Action Cards** from the **Action Discard** into the **Action Deck**
-32. Resolution
+31. Resolution
 	1. A course of action, indicated on an **Objective** or **Milestone** by a gray gray background and black border. Each **Resolution** has **Resolution Requirements** and one or more effects.
-33. Resolution Requirements
+32. Resolution Requirements
 	1. A statement that determines if a given **Resolution** can be taken by the player during their **Crisis Phase**. Can involve the player **spending** **resources**, having certain **Action Cards** in their **control**, or performing a certain task during their previous **Action Phase.**
-34. Return (↩️)
+33. Return (↩️)
 	1. Add this card to the **Objective Discard**
-35. `[x]` Max 
+34. `[x]` Max 
 	1. The maximum amount of `x` **Resources** that the **bank** can contain. 
 	2. **Resources** gained above this amount are lost. 
-36. Project `[x],[y:z]`
+35. Project `[x],[y:z]`
 	1. A long-term effort, measured on a scaled from 0 to `x`, usually 8 - 10. 
 	2. Starts at 0. 
 	3. Expending `y` of a **resource** yields `z` progress. 
 	4. When full, usually **replaced** by another card.  
-37. Reshuffle `[x]`
+36. Reshuffle `[x]`
 	1. Shuffle `x` cards from the **Action Discard** into the **Action Deck**. 
-38. Retained 
+37. Retained 
 	1. Resolve this effect if the card is still in **hand** and the end of the **Action Phase**
-39. Scout `[x]`
+38. Scout `[x]`
 	1. Look at the top `x` cards of the **Objective Deck**. You may place one of these cards on the bottom of the **Objective Deck**
-40. Spend `[x]`
+39. Spend `[x]`
 	1. Reduce the **bank** of the indicated resource by `x`
 	2. You may not **spend resources** you do not possess. 
 	3. But you can **lose** more than you possess. 
-41. Timer (⏳)
+40. Timer (⏳)
 	1. A **clock** that progresses by 1 every **Reset Phase**
-42. War `[x], [y:z], [a]`
+41. War `[x], [y:z], [a]`
 	1. An armed conflict measured on a scale of 0 to 4-10.
 	2. Starts at `x`
 	3. Decreases by `a` every turn
