@@ -1,9 +1,11 @@
 {
     "code": "C1",
-    "revision": "",
+    "revision": "b",
     "name": "Tax Collection",
-    "subtypes": [],
-    "flavortext": "",
+    "subtypes": [
+        "Statecraft"
+    ],
+    "flavortext": "Given the river's inundation this year, I'm sure you'll agree this is perfectly fair...",
     "war": false,
     "warconditions": {
         "forward": {
@@ -22,33 +24,22 @@
     "fusion": "",
     "cost": [
         {
-            "resource": "food",
-            "amount": 0
-        },
-        {
             "resource": "stability",
-            "amount": 0
-        },
-        {
-            "resource": "might",
-            "amount": 0
-        },
-        {
-            "resource": "influence",
-            "amount": 0
-        },
-        {
-            "resource": "tradegoods",
-            "amount": 0
+            "amount": 1
         }
     ],
     "actions": [
         {
-            "name": "",
+            "name": "gain food",
             "description": [
-                "",
-                "",
-                ""
+                "Gain 2 Food",
+                "Advance the Peasant Unrest clock by 1"
+            ]
+        },
+        {
+            "name": "cause unrest",
+            "description": [
+                "Advance the Peasant Unrest clock by 1"
             ]
         }
     ],
@@ -58,8 +49,6 @@
         "return": false,
         "description": "",
         "gain": [
-            "C1",
-            "C1"
         ],
         "lose": []
     }

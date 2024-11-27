@@ -1,0 +1,25 @@
+{
+    "code": "C1",
+    "revision": "b",
+    "name": "Tax Collection",
+    "subtypes": [
+        "Statecraft"
+    ],
+    "flavortext": "Given the river's inundation this year, I'm sure you'll agree this is perfectly fair...",
+    "actions": [
+        {
+            "name": "gain food",
+            "cost": "1",
+            "cost_resource": "Stability",
+            "effect":[
+                "Spend_Stability",
+                "Gain_Food",
+                "Gain_Food",
+                "Advance_Tax_Unrest"
+            ],
+            "description": [
+                "Gain 2 Food, then Advance the Peasant Unrest clock by 1"
+            ]
+        }
+    ]
+}
