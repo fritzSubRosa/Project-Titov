@@ -12,6 +12,9 @@ Gain_Might
 Gain_Trade_Good
 	 Gain 1 Trade Good to the bank, if possible
 
+replace_card
+	 Get 
+
 Spend_Food
 	 Spend 1 Food, if possible
 Spend_Influence

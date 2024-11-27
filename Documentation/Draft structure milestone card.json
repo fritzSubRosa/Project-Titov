@@ -1,0 +1,52 @@
+{
+    "code": "M1",
+    "revision": "b",
+    "name": "The Long Exile",
+    "subtypes": [],
+    "flavortext": "The hill clans of the Upper Lands are a rowdy, uncouth lot. Not the ideal allies, but these are desperate times.",
+    "war": false,
+    "warconditions": {
+        "forward": {
+            "resource": "might",
+            "amount": 1
+        },
+        "win": {
+            "description": "",
+            "gain": []
+        },
+        "lose": {
+            "description": "",
+            "gain": []
+        }
+    },
+    "fusion": false,
+    "fusion_outcome": "",
+    "actions": [
+        {
+            "name": "Enlist their soldiers",
+            "cost": "4",
+            "cost_resource": "Influence",
+            "effect":[
+                "Lose_Influence",
+                "Lose_Influence",
+                "Lose_Influence",
+                "Lose_Influence",
+                "replace_card", // Function for replacing cards. Will be told to look at the next two items in this effect list for...
+                "C2",   // The targeted card
+                "1",    // The number of times to do this. Then, return to doing these things in order.
+                "Resolve_Objective"
+            ]
+        }
+    ],
+    "effects": {
+        "timer": 0,
+        "endgame": false,
+        "return": false,
+        "description": "",
+        "gain": [
+            "C1",
+            "C1"
+        ],
+        "lose": []
+    }
+}
