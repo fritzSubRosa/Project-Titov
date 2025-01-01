@@ -12,10 +12,32 @@ namespace TitovCore
 
         private void Start()
         {
-            if (state == null)
+            state = GameState.Instance;
+        }
+
+        private void ActionPhase()
+        {
+            
+        }
+
+        private void CrisisPhase()
+        {
+            
+        }
+
+        private void ResetPhase()
+        {
+        }
+
+        private void Gameover(bool isWin = false)
+        {
+            if (!isWin)
             {
-                state = GetComponent<GameState>();
-            }
+                // lose logic here
+                return; 
+            } 
+            // win logic here. 
+            
         }
     }
 }

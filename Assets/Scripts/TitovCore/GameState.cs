@@ -18,6 +18,8 @@ namespace TitovCore
             }
         }
 
+        [SerializeField] TextMeshProUGUI gamePhase; 
+
         public Resource food;
         [SerializeField] TextMeshProUGUI foodValue;
         [SerializeField] TextMeshProUGUI foodMax;
@@ -42,6 +44,10 @@ namespace TitovCore
         // CONSTANTS
         public int initialResource = 3;
         public int initialMaxResource = 6;
+
+        private string actionPhase = "Action Phase";
+        private string crisisPhase = "Crisis Phase";
+        private string resetPhase = "Reset Phase";
         
         // Resources 
         public int currentMilestone = 0; // Index of the current milestone in the Milestone Deck
@@ -49,13 +55,6 @@ namespace TitovCore
         public List<GameObject> milestones; 
         public List<GameObject> objectives; 
         public List<GameObject> actions; 
-        
-        public List<int> agendas = new List<int>();
-        public List<int> allObjectives = new List<int>();
-
-        public List<int> allActions = new List<int>(); 
-        public List<int> hand = new List<int>();   
-        public List<int> discarded = new List<int>();
 
         private void Awake()
         {
@@ -65,6 +64,7 @@ namespace TitovCore
         
         private void Initialize()
         {
+            gamePhase.text = actionPhase;
             InitializeResources();
             InitializeDecks();
             

@@ -47,12 +47,11 @@ namespace TitovCore
 
         public void SpendValue(int amount)
         {
-            if (amount - value >= 0)
+            if (value - amount >= 0)
             {
                 value -= amount;
-                UpdateUI();
             }
-            else return; 
+            UpdateUI();
         }
 
         public void LoseValue(int amount)

@@ -10,9 +10,9 @@ namespace TitovCore.Cards
     {
         public int timer = -1; // -1 implies there is no timer  
         public int timerElapsed = -1;  
-        public TextMeshProUGUI code; 
-        public TextMeshProUGUI title;
-        public TextMeshProUGUI flavorText;
+        [SerializeField] TextMeshProUGUI code; 
+        [SerializeField] TextMeshProUGUI title;
+        [SerializeField] TextMeshProUGUI flavorText;
 
         private void Start()
         {
