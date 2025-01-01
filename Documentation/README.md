@@ -9,20 +9,19 @@ Stephen's MA Thesis
 ## Index 
 1. [Features](./Features.MD)
 2. [Questions](./Questions.MD) -- file for us to leave questions to be answered later or by the other. 
-3. [Rules](./Rules.MD) -- might be deprecated and overridden by the ones in this file
-4. [Core Mechanics](#Core-Mechanics)
-5. [Play Areas](#Play-Areas)
-6. [Cards](#Cards)
+3. [[#Core Mechanics]]
+4. [Play Areas](#Play-Areas)
+5. [Cards](#Cards)
 	1. [Card Types](#Types)
 	2. [Card Subtypes](#Subtypes)
 	3. [Keywords](#Keywords)
 	4. [List of Cards](#List-of-Cards)
-7. [Phases](#Phases)
+6. [Phases](#Phases)
 	1. [Action Phase](#Action-Phase)
 	2. [Crisis Phase](#Crisis-Phase)
 	3. [Reset Phase](#Reset-Phase)
-8. [System](./Systems.MD) -- This is for MSA to think through the implementation 
-9. [State](./State.MD) -- This is for a place to think about what will be the state to track, save, load, reset. 
+7. [System](./Systems.MD) -- This is for MSA to think through the implementation 
+8. [State](./State.MD) -- This is for a place to think about what will be the state to track, save, load, reset. 
 ## Core Mechanics 
 1. Cards
 	1. Drawing a card 
@@ -34,8 +33,8 @@ Stephen's MA Thesis
 	2. Losing Resource
 	3. Spending Resource
 3. Timers 
-	1. Triggering Timers  -- What do you mean by this?
-	2. Advancing timers 
+	1. Advancing timers
+	2. Triggering Timers
 4. Objectives
 	1. Resolving Objectives (progressing in story)
 5. ## Game Setup 
