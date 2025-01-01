@@ -8,6 +8,37 @@
 4. [[README]]
 5. [Figma Files](https://www.figma.com/files/team/1361752131146014945/project/291665647?fuid=1112098330417764190)
 
+
+## 29th November 
+- Every card in the game triggers a change on the game state. 
+- The game state consists of: 
+	1. Resources 
+	2. Current Milestone 
+	3. Current Hand 
+	4. Current Agenda 
+	5. Current Objectives Deck 
+	6. Current Action Deck 
+	7. State of timers 
+- Each action card can then be associated to a function in an action cards manager. Or they can have their own thing
+- Where do I start? 
+
+
+- All card actions operate on the game state. So the game state needs to be accessible to each card entity. 
+- All decks will contain cards objects. 
+- To model a card, let us ask the question, what is a card? What is the barebones nature of the card? 
+	- There is a name, a flavor text, a code, and card type
+	- Then the card has actions
+	- These actions have costs
+	- And then the action has consequences which operate on the state (resources and decks)
+
+- Every card is doing its own thing and Im really struggling to generalize these. The visuals are different for everyone so I cant programmatically generate them yet. 
+- The solution I can think of now is to just create a prefab of every individual card, and treat it essentially as a different mechanic. 
+- Playing a card impacts the game state, it changes the resources or it changes the state of the deck 
+- So if I do make all the cards as prefabs, how do I keep track of them, do I just make a prefab array and link it up in the editor? Not sure how to go about tracking the deck, then. 
+
+- What I can do is create a larger array of all cards, an array that contains links to all prefabs. This becomes my main array  
+- Then I create arrays that reference those cards by card code. 
+
 ## 18th November 
 Might be forgetting some stuff. That's a wrap for now. (5:25 AM)
 
