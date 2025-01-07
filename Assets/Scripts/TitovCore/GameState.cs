@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using TitovCore.Cards;
 using TitovCore.Cards.Milestones;
 using TMPro;
 using UnityEngine;
@@ -45,6 +46,37 @@ namespace TitovCore
         public Resource tradeGoods; 
         [SerializeField] TextMeshProUGUI tradeGoodsValue;
         [SerializeField] TextMeshProUGUI tradeGoodsMax;
+        
+        Resource GetResource(ResourceType resourceType)
+        {
+            // helper. 
+            // Relation mapping type to resource instance. 
+            // Untested, make sure there aren't any reference issues here
+            Resource r = null; 
+            switch (resourceType)
+            {
+                case ResourceType.Food:
+                    r = food;
+                    break;
+                case ResourceType.Stability:
+                    r = stability;
+                    break;
+                case ResourceType.Might:
+                    r = might;
+                    break;
+                case ResourceType.Influence:
+                    r = influence;
+                    break;
+                case ResourceType.TradeGoods:
+                    r = tradeGoods;
+                    break;
+                default:
+                    break;
+            }
+
+            return r; 
+        }
+        
         #endregion
 
         #region Cards and Decks
@@ -81,6 +113,20 @@ namespace TitovCore
         private void InitializeDecks()
         {
             
+
+        public bool SpendResource(ResourceType resourceType, int amount)
+        {
+            if (CostCheck(resourceType, amount))
+            {
+                GetResource(resourceType).SpendValue(amount);
+                return true;
+            }
+            return false;
+        }
+        
+        public bool CostCheck(ResourceType resourceType, int cost)
+        {
+            return GetResource(resourceType).Value >= cost;
         }
         
 
