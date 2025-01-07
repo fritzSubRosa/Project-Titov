@@ -5,43 +5,24 @@ using TMPro;
 
 namespace TitovCore.Cards
 {
-    // Parent class for all cards. Not instantiated directly anywhere. 
-    public class Card : MonoBehaviour
+    public class Card
     {
-        public int timer = -1; // -1 implies there is no timer  
-        public int timerElapsed = -1;  
-        [SerializeField] TextMeshProUGUI code; 
-        [SerializeField] TextMeshProUGUI title;
-        [SerializeField] TextMeshProUGUI flavorText;
+        public string title;
+        public string code;
+        public CardType type;
+        public string flavorText;
+        
+       // Since this is the universal    
 
-        private void Start()
+        public Card(string _title, string _code, string _flavorText=null)
         {
-            Code = code?.text;
-            Title = title?.text;
-            FlavorText = flavorText?.text; 
-        }
-
-        public CardType Type { get; protected set; }
-
-        public string Code { get; protected set; }
-
-        public string Title { get; protected set; }
-
-        public string FlavorText { get; protected set; }
-
-        public void UpdateTimer(int value)
-        {
-            // value can be positive or negative, based on whether you are incrementing timer or decrementing. 
-            if (timer > 0 && timerElapsed > 0)
-            {
-                timerElapsed += value;
-            }
-        }
-
-        // The function to be overrided by every individual card
-        public virtual void ResolveCard()
-        {
-            Debug.Log("Card::ResolveCard -- Card Resolved.");
+            if (_code[0] == 'M') type = CardType.Milestone;
+            else if (_code[0] == 'C') type = CardType.Action;
+            else if (_code[0] == 'O') type = CardType.Objective;
+            
+            title = _title;
+            code = _code;
+            flavorText = _flavorText;
         }
     }
 }
