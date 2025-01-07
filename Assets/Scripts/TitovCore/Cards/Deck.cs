@@ -1,6 +1,8 @@
 using System.Collections.Generic;
-using TitovCore.Cards.Milestones;
 using System;
+using TitovCore.Cards.Milestones;
+using TitovCore.Cards.Actions;
+using TitovCore.Cards.Objectives;
 using UnityEngine;
 
 namespace TitovCore.Cards
@@ -24,7 +26,7 @@ namespace TitovCore.Cards
             InitActions();
         }
 
-        public static void AddCard(CardType cardType, Card card, Type script = null)
+        public static void AddCard(CardType cardType, Card card)
         {
             if (cardType == CardType.Milestone)
             {
@@ -41,18 +43,7 @@ namespace TitovCore.Cards
                 AllActions.Add(card);
                 deckLookup.Add(card.code, AllActions.Count - 1);
             }
-            
-
         }
-
-        public static List<Card> GenerateObjectivesDeck()
-        {
-            List<Card> objsDeck = new List<Card>();
-            
-            return objsDeck;
-        }
-        
-        
         
         
         static void InitMilestones()
@@ -98,8 +89,9 @@ namespace TitovCore.Cards
         {
             AddCard(CardType.Action, new Card(
                 "Tax Collection",
-                "C1b",
-                "Given the river’s inundation this year, I’m sure you’ll agree this is perfectly fair..."));
+                "C1",
+                "Given the river’s inundation this year, I’m sure you’ll agree this is perfectly fair...", 
+                typeof(C1TaxCollection)));
             
             AddCard(CardType.Action, new Card(
                 "Conscription", 
@@ -326,8 +318,9 @@ namespace TitovCore.Cards
         {
             AddCard(CardType.Objective, new Card(
                 "Ritualized Taxation",
-                "O1c",
-                "Timing tax collection to coincide with annual religious festivals should help smooth things over with the peasantry."));
+                "O1",
+                "Timing tax collection to coincide with annual religious festivals should help smooth things over with the peasantry.", 
+                typeof(O1RitualizedTaxation)));
             AddCard( CardType.Objective, new Card( 
                 "Peasant Unrest", 
                 "O2", 
