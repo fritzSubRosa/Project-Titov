@@ -22,9 +22,9 @@ namespace TitovCore
         private void Start()
         {
             gamePhase.text = "Setting up...";
+            Deck.InitializeDeck();
             state = GameState.Instance;
             state.Initialize(onComplete: NextPhase);
-            Deck.InitializeDeck();
         }
 
         #region Game Phases
@@ -57,7 +57,8 @@ namespace TitovCore
             state.phase = GamePhase.Reset;
             gamePhase.text = resetPhase;
             
-            // advance timers 
+            // advance timers,
+            // call each milestone's resolveCard()
             // add n cards to hand 
             
             ActionPhase();
