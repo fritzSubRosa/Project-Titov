@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using TitovCore.Cards.Milestones;
+using System;
 using UnityEngine;
 
 namespace TitovCore.Cards
@@ -22,7 +24,7 @@ namespace TitovCore.Cards
             InitActions();
         }
 
-        public static void AddCard(CardType cardType, Card card)
+        public static void AddCard(CardType cardType, Card card, Type script = null)
         {
             if (cardType == CardType.Milestone)
             {
@@ -39,35 +41,48 @@ namespace TitovCore.Cards
                 AllActions.Add(card);
                 deckLookup.Add(card.code, AllActions.Count - 1);
             }
+            
+
         }
+
+        public static List<Card> GenerateObjectivesDeck()
+        {
+            List<Card> objsDeck = new List<Card>();
+            
+            return objsDeck;
+        }
+        
+        
+        
+        
         static void InitMilestones()
         {
             AddCard(CardType.Milestone, new Card(
                     "The Long Exile", 
                     "M1",
-                    "The hill clans of the Upper Lands are a rowdy, uncouth lot. Not the ideal allies, but these are desperate times."
-                )
+                    "The hill clans of the Upper Lands are a rowdy, uncouth lot. Not the ideal allies, but these are desperate times.",
+                    typeof(M1TheLongExile))   
             );
             
             AddCard(CardType.Milestone, new Card(
                     "Ways of War", 
                     "M2",
-                    "The Wheel-Turners were so named for their new way of war - standing armies led by chariot-riding nobles. Perhaps we may defeat them by emulating them."
-                )
+                    "The Wheel-Turners were so named for their new way of war - standing armies led by chariot-riding nobles. Perhaps we may defeat them by emulating them.",
+                    typeof(M2WaysOfWar))
             );
             
             AddCard(CardType.Milestone, new Card(
                     "Turn of The Wheel", 
                     "M3",
-                    "The Wheel-Turner kings think our dynasty broken, friendless, defeated. Let us prove them wrong."
-                )
+                    "The Wheel-Turner kings think our dynasty broken, friendless, defeated. Let us prove them wrong.",
+                    typeof(M3TheTurnOfTheWheel))
             );
             
             AddCard(CardType.Milestone, new Card(
                     "The Siege of Esh-Edu", 
                     "M4",
-                    "We have driven the invaders into their capital at Esh-Edu. They are well-provisioned. We will need to summon a great effort to dislodge them."
-                )
+                    "We have driven the invaders into their capital at Esh-Edu. They are well-provisioned. We will need to summon a great effort to dislodge them.",
+                    typeof(M4TheSiegeOfEshEdu))
             );
             
             AddCard(CardType.Milestone, new Card(
@@ -313,6 +328,230 @@ namespace TitovCore.Cards
                 "Ritualized Taxation",
                 "O1c",
                 "Timing tax collection to coincide with annual religious festivals should help smooth things over with the peasantry."));
+            AddCard( CardType.Objective, new Card( 
+                "Peasant Unrest", 
+                "O2", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Uncertain Succession", 
+                "O3", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Civil War", 
+                "O4", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "At Sun's Edge", 
+                "O5", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Moon God's Blessings", 
+                "O6", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Debt Jubilee", 
+                "O7", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Raise Moon Temple", 
+                "O8", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Moon Temple", 
+                "O9", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Plague", 
+                "O10", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Raid Beyond the Cataracts", 
+                "O11", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Raid the Sable Coast Princes", 
+                "O12", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Raid the Cedar Kings", 
+                "O13", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "War Beyond the Cataracts", 
+                "O14", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "War with the Sable Coast", 
+                "O15", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "War with the Cedar King", 
+                "O16", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Dynasty Triumphant", 
+                "O17", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Conduct Census", 
+                "O18", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Raise Stele", 
+                "O19", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Royal Stele", 
+                "O20", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Raise Grand Monument", 
+                "O21", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Grand Monument", 
+                "O22", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Peasant Uprising", 
+                "O23", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Envoy from the Mural-Painters", 
+                "O26", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Envoy from the Storm-Followers", 
+                "O27", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Envoy from the Four Sisters", 
+                "O28", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Envoy from the River-Crossers", 
+                "O29", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Envoy from the Lord of Bulls", 
+                "O30", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Envoy from the Deep Desert", 
+                "O31", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Consolidation", 
+                "O35", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Border Raid", 
+                "O36", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Enemy Invades!", 
+                "O37", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Capital besieged!", 
+                "O38", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Whispers of Treason", 
+                "O39", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Seditious Conspiracy", 
+                "O40", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Palace Coup", 
+                "O41", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Crop Failure", 
+                "O42", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Famine", 
+                "O43", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Desolation", 
+                "O44", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Diplomatic Incident", 
+                "O45", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Foreign Claimant", 
+                "O46", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Vassalization", 
+                "O47", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Thunderheads", 
+                "O48", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Chain Lightning", 
+                "O49", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Distant Thunder", 
+                "O50", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Plague Ships", 
+                "O51", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Waylaid Shipping", 
+                "O52", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Bride and Prejudice", 
+                "O53", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Distant Thunder", 
+                "O54", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Build Eternal Pyre", 
+                "O55", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Fuel Eternal Pyre", 
+                "O56", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Eternal Pyre", 
+                "O57", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "War with the Storm-Followers", 
+                "O58", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "War with the Mural-Painters", 
+                "O59", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "War with the Four-Sisters", 
+                "O60", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Oil Lamp Workshop", 
+                "O61", 
+                "Flavor text here..."));
+            AddCard( CardType.Objective, new Card( 
+                "Bronze Foundry", 
+                "O62", 
+                "Flavor text here...")); 
         }
     }
 }
