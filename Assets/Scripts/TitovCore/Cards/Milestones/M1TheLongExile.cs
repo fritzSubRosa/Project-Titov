@@ -5,13 +5,8 @@ using UnityEngine;
 
 namespace TitovCore.Cards.Milestones
 {
-    public class M1TheLongExile : Card
+    public class M1TheLongExile : MilestoneCard
     {
-        private void Start()
-        {
-            Type = CardType.Milestone;
-        }
-
         public void EnlistTheirSoldiers()
         {
             // Cost 4 Influence

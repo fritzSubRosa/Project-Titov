@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace TitovCore.Cards.Milestones
 {
-    public class M3TheTurnOfTheWheel : Card
+    public class M3TheTurnOfTheWheel : MilestoneCard
     {
         private void Start()
         {

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace TitovCore.Cards.Milestones
 {
-    public class M4TheSiegeOfEshEdu : Card
+    public class M4TheSiegeOfEshEdu : MilestoneCard
     {
         public int totalSteps;
         public int currentStep;
