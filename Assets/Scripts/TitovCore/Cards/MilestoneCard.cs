@@ -28,14 +28,6 @@ namespace TitovCore.Cards
                 timerElapsed += value;
             }
         }
-
-        public void SetupCard(Card card)
-        {
-            if (card.type != CardType.Milestone) return;
-            Code = card.code;
-            Title = card.title;
-            FlavorText = card.flavorText ?? "";
-        }
         
         // The function to be overrided by every individual card
         public virtual void ResolveCard()
