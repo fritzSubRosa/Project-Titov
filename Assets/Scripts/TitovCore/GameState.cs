@@ -1,13 +1,16 @@
 using System;
 using System.Collections.Generic;
+using TitovCore.Cards.Milestones;
 using TMPro;
 using UnityEngine;
 
 namespace TitovCore
 {
+    
     [Serializable]
     public class GameState : MonoBehaviour
     {
+        public GamePhase phase = GamePhase.Setup;
         private static GameState _instance;
         public static GameState Instance
         {
@@ -18,8 +21,11 @@ namespace TitovCore
             }
         }
 
-        [SerializeField] TextMeshProUGUI gamePhase; 
-
+        #region Resources
+        // CONSTANTS
+        public int initialResource = 3;
+        public int initialMaxResource = 6;
+        
         public Resource food;
         [SerializeField] TextMeshProUGUI foodValue;
         [SerializeField] TextMeshProUGUI foodMax;
@@ -39,35 +45,28 @@ namespace TitovCore
         public Resource tradeGoods; 
         [SerializeField] TextMeshProUGUI tradeGoodsValue;
         [SerializeField] TextMeshProUGUI tradeGoodsMax;
+        #endregion
 
+        #region Cards and Decks
+        public int currentMilestone = 1; // Index of the current milestone in the Milestone Deck
+        public int drawPerTurn = 5; // start at drawing 5 cards to hand per turn. 
         
-        // CONSTANTS
-        public int initialResource = 3;
-        public int initialMaxResource = 6;
-
-        private string actionPhase = "Action Phase";
-        private string crisisPhase = "Crisis Phase";
-        private string resetPhase = "Reset Phase";
-        
-        // Resources 
-        public int currentMilestone = 0; // Index of the current milestone in the Milestone Deck
-
         public List<GameObject> milestones; 
         public List<GameObject> objectives; 
         public List<GameObject> actions; 
+        #endregion
 
         private void Awake()
         {
             _instance = this;
-            Initialize();
         }
         
-        private void Initialize()
+        public void Initialize(Action onComplete)
         {
-            gamePhase.text = actionPhase;
             InitializeResources();
             InitializeDecks();
             
+            onComplete?.Invoke();
         }
 
         private void InitializeResources()
@@ -80,7 +79,9 @@ namespace TitovCore
         }
 
         private void InitializeDecks()
-        {}
+        {
+            
+        }
         
 
         public void Cleanup()
