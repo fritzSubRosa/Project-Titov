@@ -3,14 +3,8 @@ using UnityEngine;
 
 namespace TitovCore.Cards
 {
-    public class ObjectiveCard : MonoBehaviour
+    public class ObjectiveCard : TitovCard
     {        
-        
-        public CardType Type { get; protected set; }
-        public string Code { get; protected set; }
-        public string Title { get; protected set; }
-        public string FlavorText { get; protected set; }
-        
         private void Start()
         {
             Type = CardType.Objective;

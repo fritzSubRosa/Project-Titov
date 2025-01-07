@@ -3,7 +3,7 @@ using TMPro;
 
 namespace TitovCore.Cards
 {
-    public class MilestoneCard : MonoBehaviour
+    public class MilestoneCard : TitovCard
     {
         public int timer = -1; // -1 implies there is no timer  
         public int timerElapsed = -1;  
@@ -13,19 +13,12 @@ namespace TitovCore.Cards
 
         private void Start()
         {
+            Type = CardType.Milestone;
+            
             Code = code?.text;
             Title = title?.text;
             FlavorText = flavorText?.text; 
-            Type = CardType.Milestone;
         }
-
-        public CardType Type { get; protected set; }
-
-        public string Code { get; protected set; }
-
-        public string Title { get; protected set; }
-
-        public string FlavorText { get; protected set; }
 
         public void UpdateTimer(int value)
         {
