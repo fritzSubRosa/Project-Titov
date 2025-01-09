@@ -24,8 +24,8 @@ namespace TitovCore
 
         #region Resources
         // CONSTANTS
-        public int initialResource = 3;
-        public int initialMaxResource = 6;
+        public int initialResource;
+        public int initialMaxResource;
         
         public Resource food;
         [SerializeField] TextMeshProUGUI foodValue;
@@ -146,6 +146,8 @@ namespace TitovCore
             actions.Add(new Card("C20"));
             actions.Add(new Card("C21"));
             actions.Add(new Card("C22"));
+            
+            milestone = Deck.AllMilestones[currentMilestone];
         }
 
 

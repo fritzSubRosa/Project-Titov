@@ -16,7 +16,7 @@ namespace TitovCore.Cards
         
        // Since this is the universal    
 
-        public Card(string _title, string _code, string _flavorText=null, Type _cardScript=null)
+        public Card(string _title, string _code, string _flavorText=null, Type _cardScript=null, GameObject _cardPrefab=null)
         {
             if (_code[0] == 'M') type = CardType.Milestone;
             else if (_code[0] == 'C') type = CardType.Action;
@@ -26,11 +26,7 @@ namespace TitovCore.Cards
             code = _code;
             flavorText = _flavorText;
             cardScript = _cardScript;
-            
-            if (_cardScript != null)
-            {
-                Debug.Log("Card::Card -- Script type passed: " + _cardScript);
-            }
+            cardPrefab = _cardPrefab;
         }
 
         

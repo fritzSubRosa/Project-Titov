@@ -19,14 +19,14 @@ namespace TitovCore.Cards
         public static List<Card> AllActions = new List<Card>();
         public static List<Card> AllObjectives = new List<Card>();
 
-        public static void InitializeDeck()
+        public static void Initialize()
         {
             InitMilestones();
             InitObjectives();
             InitActions();
         }
 
-        public static void AddCard(CardType cardType, Card card)
+        static void AddCard(CardType cardType, Card card)
         {
             if (cardType == CardType.Milestone)
             {
@@ -52,28 +52,31 @@ namespace TitovCore.Cards
                     "The Long Exile", 
                     "M1",
                     "The hill clans of the Upper Lands are a rowdy, uncouth lot. Not the ideal allies, but these are desperate times.",
-                    typeof(M1TheLongExile))   
+                    typeof(M1TheLongExile),
+                    GameManager.GetCardPrefab("MilestoneChoices"))
             );
             
             AddCard(CardType.Milestone, new Card(
                     "Ways of War", 
                     "M2",
                     "The Wheel-Turners were so named for their new way of war - standing armies led by chariot-riding nobles. Perhaps we may defeat them by emulating them.",
-                    typeof(M2WaysOfWar))
+                    typeof(M2WaysOfWar),
+                    GameManager.GetCardPrefab("MilestoneChoices"))
             );
             
             AddCard(CardType.Milestone, new Card(
                     "Turn of The Wheel", 
                     "M3",
                     "The Wheel-Turner kings think our dynasty broken, friendless, defeated. Let us prove them wrong.",
-                    typeof(M3TheTurnOfTheWheel))
+                    typeof(M3TheTurnOfTheWheel),GameManager.GetCardPrefab("MilestoneChoices"))
             );
             
             AddCard(CardType.Milestone, new Card(
                     "The Siege of Esh-Edu", 
                     "M4",
                     "We have driven the invaders into their capital at Esh-Edu. They are well-provisioned. We will need to summon a great effort to dislodge them.",
-                    typeof(M4TheSiegeOfEshEdu))
+                    typeof(M4TheSiegeOfEshEdu),
+                    GameManager.GetCardPrefab("BattleCard"))
             );
             
             AddCard(CardType.Milestone, new Card(
@@ -82,7 +85,6 @@ namespace TitovCore.Cards
                     "The Two Lands have been reunited at last, but our victory is tinged with sorrow. Our noble king has passed beyond the horizon, taken by a Wheel-Turner arrow. He leaves a son too young to rule and a daughter to serve as regent. It now falls to them to restore our place in the world."
                 )
             );
-
         }
 
         static void InitActions()
