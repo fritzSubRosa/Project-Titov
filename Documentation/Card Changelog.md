@@ -1,17 +1,24 @@
 # Action Cards
 ## C1: Tax Collection
-
+- B: The number of times this card is played will now be monitored. Every three times a player plays a Tax Collection card, a "Peasant Unrest" Objective will be added into the game. Additionally, this card now has the subtype "Statecraft" to synergize with "Corvee"
+- A: Added cost of 1 stability and increased yield to 2 food. In general it's not very interesting if there's a card that it doesn't make sense for the player to ever *not* play. This now gives some downside and makes the decision to tax non-automatic.
+- Init: This card costs 0 of any resource and nets the player 1 food. The goal is to give the player an unavoidable, if inconsistent, source of food income
 ## C2: Conscription
+- B: Conscription now costs 2 food but Levies are free. 
+- A: Modified the food costs here slightly. Conscription now costs only 1 food to play, but Levy now costs 1 food, as well. Hopefully this creates some more interesting incentives/decisions, as well as spreading the food cost out over time more.
+- Init: This is the player's main source of their early Might income. Costs 1:1 Food-to-Might, which will be the baseline. 
 
 ## C3: Levy Infantry
+- See changelog for C2: Conscription
 
 ## C4: Public Rituals
+- A: Added "Ma'at" subtype. Ma'at was the Egyptian goddess of harmony and order, the natural cycles of the world, as well as the embodiment of those concepts themselves. In my ludic terms, these will be by and large religious practices. 
+- Init: Baseline source of stability. The intended takeaway here is to show the relationship between Egyptian kingship's role as state administrator (Tax Collection, Conscription) and its role as chief religious figure. 
 
 ## C5: Political Maneuvering
 - B: renamed to Political Maneuvering to better reflect the nature of Influence as a resource. 
-  
-  Wording rephrased of secondary ability to : "Spend X Influence: Perform X of the following, choosing each option only once."
-
+- A: Wording rephrased of secondary ability to : "Spend X Influence: Perform X of the following, choosing each option only once." Favour cards have been removed altogether for being overly swingy. Added "Prestige" subtype. It doesn't really make sense for this to be "Statecraft" because it doesn't entirely scan how conscripting peasants using Corvee would allow one to perform more nuanced politicking or diplomacy. 
+- Init: The primary source of influence in the game - a resource I see mainly as power projection and the centralization of power. I'd like this to be a bit more swingy than other resources, so at present the Favors are all random
 ## C11: Hill Country Conscription
 - C: Added the "Statecraft" subtype. It makes sense that one would be able to Corvee this card, representing a more direct impressment / payment of taxes in kind.
 
