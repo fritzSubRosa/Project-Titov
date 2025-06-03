@@ -114,16 +114,128 @@ namespace TitovCore.Cards
             );
 
             AddCard(CardType.Milestone, new Card(
-                    "title", 
-                    "number",
-                    "flavour"
+                    "Legacy of the Lady of Gold", 
+                    "M10",
+                    "\“Where lay only ash, I sowed seeds. Where there was want, I gave succor. I go to the Gods with a light heart.\”"
                 )
             );
 
             AddCard(CardType.Milestone, new Card(
-                    "title", 
-                    "number",
-                    "flavour"
+                    "A Show of Force", 
+                    "M11",
+                    "flavour tk"
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "Grand Naval Campaign", 
+                    "M12",
+                    "flavour tk"
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "An Overland Campaign", 
+                    "M13",
+                    "flavour tk"
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "Legacy of the Conqueror", 
+                    "M14",
+                    "flavour tk"
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "Interlude - The Eclipse", 
+                    "M15",
+                    "Years spin into decades, decades into centuries. Our people grow and prosper, but as dynasties begin so too do they end. A young iconoclast takes the throne, the Sun Goddess burning in his heart. The priests of Father Moon oppose him - in secrecy, at first. It is the time of the Eclipse."
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "The Sun Rises", 
+                    "M16",
+                    "\“Let the Moon Priests cower in darkness. The Sun is the one true Goddess, and I serve only Her. She shall make my reign as brilliant and terrible as She is.\”"
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "Sunstroke", 
+                    "M17",
+                    "We have come this far. Let us not hesitate at the threshold of righteousness."
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "Ill-Met by Moonlight", 
+                    "M18",
+                    "They meet in the temple gardens fortnightly to plan the unthinkable."
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "Legacy of the Sun King", 
+                    "M19",
+                    "The Sun King has broken his enemies and elevated the Sun Goddess over all. But even the Sun must set."
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "Legacy of the Heretic", 
+                    "M20",
+                    "By terror or by mercy, we must bring those the Heretic led astray back under Father Moon’s protection."
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "Act 3", 
+                    "M21",
+                    "Our people have passed out of the Eclipse into a brilliant dawn. The Sun Goddess and the Kings who rule in Her name will guide our people to glory. We turn to them for guidance as a new century dawns."
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "Act 3", 
+                    "M22",
+                    "Our people have passed out of the Eclipse into a harmonious equinox. Just as we are a people of Two Lands, we have become a people of Two Lights - Sun and Moon, in eternal balance. We turn to them for guidance as a new century dawns."
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "Act 3", 
+                    "M23",
+                    "The madness of the Sun King has been put to an end - his blasphemous monuments toppled, his name itself stricken from our history. We place our fate in the firm hand of the Priests of Father Moon. We turn to them for guidance as a new century dawns."
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "The Submerged Mind of Empire", 
+                    "M24",
+                    "The outer provinces report the arrival of a strange people to our shores. They seem to be drawn to us because of..."
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "Waiting for the Barbarians", 
+                    "M25",
+                    "The outsiders conspire on their islands. We have received word that they have designs on the Two Lands. We must prepare."
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "By Land and Sea", 
+                    "M26",
+                    "The enemy falls upon us. We must summon all of our strength to drive them back into the sea."
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "The Storm Breaks", 
+                    "M27",
+                    "The invaders’ host has been smashed, but the lands around the Great Green still burn. Let us secure our victory once and for all."
                 )
             );
         }
