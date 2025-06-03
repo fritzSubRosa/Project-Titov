@@ -37,7 +37,29 @@ Stephen's MA Thesis
 	2. Triggering Timers
 4. Objectives
 	1. Resolving Objectives (progressing in story)
-5. ## Game Setup 
+
+## Game Setup 
+1. Starting Objective Deck (1x of Each)
+	1. O1 - Ritual Taxation
+	   O3 - Uncertain Succession
+	   O5 - In Twilight
+	   O7 - Debt Jubilee
+	   O11 - Raid Beyond the Cataracts
+	   O12 - Raid the Sable Coast Princes
+	   O13 - Raid the Kingdom of the Cedars
+	   O18 - Conduct Census
+	   O19 - Raise Stele
+2. Starting Action Deck: 
+	1. 4x: C1 - Tax Collection
+	   3x: C4 - Public Ritual
+	   2x: C2 - Conscription
+	   1x: C5 - Political Maneuvers
+3. Tutorial Agenda Setup (For first-time players)
+	1. O1 - Ritual Taxation
+	   O11 - Raid Beyond the Cataracts
+	   O18 - Conduct Census
+
+
 ## Timing Structure
 1. Action Phase
 	1. The only phase in which the player may play **Action Cards**, unless otherwise indicated. Progresses as follows. 

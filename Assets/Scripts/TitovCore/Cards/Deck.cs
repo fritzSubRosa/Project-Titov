@@ -85,6 +85,47 @@ namespace TitovCore.Cards
                     "The Two Lands have been reunited at last, but our victory is tinged with sorrow. Our noble king has passed beyond the horizon, taken by a Wheel-Turner arrow. He leaves a son too young to rule and a daughter to serve as regent. It now falls to them to restore our place in the world."
                 )
             );
+            AddCard(CardType.Milestone, new Card(
+                    "The Regency", 
+                    "M6",
+                    "The Lady of Gold’s regency for our young King was only meant to be temporary. But perhaps it need not be."
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "The Upriver Expedition", 
+                    "M7",
+                    "Five ships lie low in the water, the sweet smoke of the priests’ offerings fluttering their sails. They will return with the bounty of the far south, or not at all."
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "In the Land of the God", 
+                    "M8",
+                    "The captain sleeps and will not stir. The Great River shifts under our feet. If we are nearer to our destination or our deaths, none can be certain."
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "In the Land of the God", 
+                    "M9",
+                    "The captain sleeps and will not stir. The Great River shifts under our feet. If we are nearer to our destination or our deaths, none can be certain."
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "title", 
+                    "number",
+                    "flavour"
+                )
+            );
+
+            AddCard(CardType.Milestone, new Card(
+                    "title", 
+                    "number",
+                    "flavour"
+                )
+            );
         }
 
         static void InitActions()
@@ -92,181 +133,181 @@ namespace TitovCore.Cards
             AddCard(CardType.Action, new Card(
                 "Tax Collection",
                 "C1",
-                "Given the river’s inundation this year, I’m sure you’ll agree this is perfectly fair...", 
+                "\"Given the river’s inundation this year, I’m sure you’ll agree this is perfectly fair...\"", 
                 typeof(C1TaxCollection)));
             
             AddCard(CardType.Action, new Card(
                 "Conscription", 
                 "C2", 
-                ""));
+                "Fame, glory, and dysentery await!"));
             
             AddCard(CardType.Action, new Card(
                 "Levy Infantry", 
                 "C3", 
-                ""));
+                "Desert heat. Forced marches. Nighttime raids. And to cap it all off, I got a splinter."));
             
             AddCard(CardType.Action, new Card(
                 "Public Rituals", 
                 "C4", 
-                ""));
+                "A lamb or two is a small price to pay for the favour of the Gods."));
             
             AddCard(CardType.Action, new Card(
-                "Diplomatic Overtures", 
+                "Political Maneuvers", 
                 "C5", 
                 ""));
             
             AddCard(CardType.Action, new Card(
                 "State Rituals", 
                 "C6", 
-                ""));
+                "\"We have far too many gods for the common folk to keep track of. They need only one. Me."\""));
             
             AddCard(CardType.Action, new Card(
                 "Royal Guard", 
                 "C7", 
-                ""));
+                "Take the third son of a minor house, give him a plumed helmet and bronze khopesh, and he will believe he’s a god made flesh."));
             
             AddCard(CardType.Action, new Card(
                 "Court Intrigue", 
                 "C8", 
-                ""));
+                "You just would not believe the things I’ve heard..."));
             
             AddCard(CardType.Action, new Card(
                 "Corruption", 
                 "C9", 
-                ""));
+                "\"Such a shame that this harvest of figs 'rotted on the vine.' Care for another, darling?\""));
             
             AddCard(CardType.Action, new Card(
                 "Blood Money", 
                 "C10", 
-                ""));
+                "\"We’re security contractors. You pay us, and your villages stay safe.\""));
             
             AddCard(CardType.Action, new Card(
                 "Hill Country Conscription", 
                 "C11", 
-                ""));
+                "They don't speak our tongue, but they understand the words for \"Gold\" and \"Kill\" well enough."));
             
             AddCard(CardType.Action, new Card(
                 "Hill Country Couriers", 
                 "C12", 
-                ""));
+                "These hillfolk have the damndest accents, but they're undoubtedly resourceful."));
             
             AddCard(CardType.Action, new Card(
                 "Hill Country Archers", 
                 "C13", 
-                ""));
+                "Just the thing for when you went someone three hundred paces away to have a very, very bad day."));
             
             AddCard(CardType.Action, new Card(
                 "Exorbitant Gift", 
                 "C14", 
-                ""));
+                "\"Surely you wouldn’t be so rude as to refuse us hospitality?\""));
             
             AddCard(CardType.Action, new Card(
                 "Border Fort", 
                 "C15", 
-                ""));
+                "Beer rations temporarily suspended. You know what you did."));
             
             AddCard(CardType.Action, new Card(
                 "Trading Post", 
                 "C16", 
-                ""));
+                "The lifeblood of commerce. The sweat of industry. The phlegm of communicable disease."));
             
             AddCard(CardType.Action, new Card(
                 "Moon God Sacrifices", 
                 "C17", 
-                ""));
+                "The priests of Father Moon are diligent, fanatical, and very quick to take offense."));
             
             AddCard(CardType.Action, new Card(
                 "Corvee", 
                 "C18", 
-                ""));
+                "\"Don’t stop fanning me, damn you! Your farm can wait!\""));
             
             AddCard(CardType.Action, new Card(
                 "Volunteers", 
                 "C19", 
-                ""));
+                "It’s not \"pillage\", it’s a signing bonus."));
             
             AddCard(CardType.Action, new Card(
                 "Seditious Priests", 
                 "C20", 
-                ""));
+                "The omens turned sour when we curtailed the priests' privileges. Coincidence, surely."));
             
             AddCard(CardType.Action, new Card(
                 "Cataracts Vassal", 
                 "C21", 
-                ""));
+                "The Upper Cataracts have bent their knees to us. In exchange for our protection, they send men for the King’s armies."));
             
             AddCard(CardType.Action, new Card(
                 "Cataracts Vassal", 
                 "C22", 
-                ""));
+                "The Upper Cataracts have bent their knees to us. In exchange for our protection, they send barges of gold, grain, and salt mutton."));
             
             AddCard(CardType.Action, new Card(
                 "Sable Coast Vassal", 
                 "C23", 
-                ""));
+                "The Rebel Princes have been brought to heel. In exchange for our protection, they lend us the use of their fleet of many-oared warships."));
             
             AddCard(CardType.Action, new Card(
                 "Sable Coast Vassal", 
                 "C24", 
-                ""));
+                "The Rebel Princes have been brought to heel. In exchange for our protection, they send trade ships laden with ivory and cinnamon."));
             
             AddCard(CardType.Action, new Card(
                 "Cedars Vassal", 
                 "C25", 
-                ""));
+                "The once-proud Cedar King has sworn his fealty to us. His armies are now ours to command."));
             
             AddCard(CardType.Action, new Card(
                 "Cedars Vassal", 
                 "C26", 
-                ""));
+                "The once-proud Cedar King has sworn his fealty to us. We have commissioned a new fleet from his master shipwrights."));
             
             AddCard(CardType.Action, new Card(
                 "Noble Charioteers", 
                 "C27", 
-                ""));
+                "Chariot, noun: A two-wheeled vehicle that communicates just how very important your father is."));
             
             AddCard(CardType.Action, new Card(
-                "Trade with the Mural-Painters", 
+                "The Lady of Gold", 
                 "C28", 
-                ""));
+                "\"My mother was Great Royal Wife of the king. His, a concubine. Tell me, why should I not rule?\""));
             
             AddCard(CardType.Action, new Card(
-                "Trade with the Storm-Followers", 
+                "The Conqueror", 
                 "C29", 
                 ""));
             
             AddCard(CardType.Action, new Card(
-                "Trade with the Four Sisters", 
+                "Moon God’s Chosen", 
                 "C30", 
                 ""));
             
             AddCard(CardType.Action, new Card(
-                "Trade with the River-Crossers", 
+                "Temple Administration", 
                 "C31", 
-                ""));
+                "\“The Gods have tremendous appetites, you see...\”"));
             
             AddCard(CardType.Action, new Card(
-                "Trade with the Lord of Bulls", 
+                "empty", 
                 "C32", 
                 ""));
             
             AddCard(CardType.Action, new Card(
-                "Trade with the Deep Desert", 
+                "empty", 
                 "C33", 
                 ""));
             
             AddCard(CardType.Action, new Card(
-                "Trade with the Lapis-Miners", 
+                "empty", 
                 "C34", 
                 ""));
             
             AddCard(CardType.Action, new Card(
-                "Trade with the Barrow-Builders", 
+                "empty", 
                 "C35", 
                 ""));
             
             AddCard(CardType.Action, new Card(
-                "Trade with the Orange-Planters", 
+                "empty", 
                 "C36", 
                 ""));
             
@@ -283,36 +324,96 @@ namespace TitovCore.Cards
             AddCard(CardType.Action, new Card(
                 "Wheel-Turner Diplomats", 
                 "C39", 
-                ""));
+                "Their loyalty may be suspect, but their knowledge of foreign courts is unparalleled"));
             
             AddCard(CardType.Action, new Card(
                 "Royal Flagship", 
                 "C40", 
-                ""));
+                "flavourtk"));
             
             AddCard(CardType.Action, new Card(
                 "Naval Patrol", 
                 "C41", 
-                ""));
+                "\“Give us four of those casks you ‘don’t have’ and we’ll agree that you ‘don’t have’ the other forty.\”"));
             
             AddCard(CardType.Action, new Card(
                 "Sun King's Decree", 
                 "C42", 
-                ""));
+                "\"I will it to be so. That is all the instruction you require.\""));
             
             AddCard(CardType.Action, new Card(
-                "EMPTY", 
+                "High Priest of the Moon", 
                 "C43", 
-                ""));
+                "\"It's treason, then.\""));
             
             AddCard(CardType.Action, new Card(
-                "Sun King's Heralds", 
+                "Heralds of the sun", 
                 "C44", 
-                ""));
+                "We bring a universal dawn"));
             
             AddCard(CardType.Action, new Card(
                 "Zealous Administration", 
                 "C45", 
+                "\"All the bounty of the Great River belongs to the King. Give thanks that He grants you anything at all.\""));
+
+            AddCard(CardType.Action, new Card(
+                "Storms Vassal", 
+                "C46", 
+                "flavourtk"));
+
+            AddCard(CardType.Action, new Card(
+                "Storms Vassal", 
+                "C47", 
+                "flavourtk"));
+
+            AddCard(CardType.Action, new Card(
+                "Mural-Painters Vassal", 
+                "C48", 
+                "flavourtk"));
+
+            AddCard(CardType.Action, new Card(
+                "Mural-Painters Vassal", 
+                "C49", 
+                "flavourtk"));
+            
+            AddCard(CardType.Action, new Card(
+                "Sisters Vassal", 
+                "C50", 
+                ""));
+
+            AddCard(CardType.Action, new Card(
+                "Sisters Vassal", 
+                "C51", 
+                ""));
+
+            AddCard(CardType.Action, new Card(
+                "Terraces Vassal", 
+                "C52", 
+                ""));
+
+            AddCard(CardType.Action, new Card(
+                "Terraces Vassal", 
+                "C53", 
+                ""));
+
+            AddCard(CardType.Action, new Card(
+                "Bulls Vassal", 
+                "C54", 
+                ""));
+
+            AddCard(CardType.Action, new Card(
+                "Bulls Vassal", 
+                "C55", 
+                ""));
+
+            AddCard(CardType.Action, new Card(
+                "Rivers Vassal", 
+                "C56", 
+                ""));
+
+            AddCard(CardType.Action, new Card(
+                "Rivers Vassal", 
+                "C57", 
                 ""));
         }
 
