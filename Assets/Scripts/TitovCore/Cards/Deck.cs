@@ -1,9 +1,7 @@
 using System.Collections.Generic;
-using System;
 using TitovCore.Cards.Milestones;
 using TitovCore.Cards.Actions;
 using TitovCore.Cards.Objectives;
-using UnityEngine;
 
 namespace TitovCore.Cards
 {
@@ -116,7 +114,7 @@ namespace TitovCore.Cards
             AddCard(CardType.Milestone, new Card(
                     "Legacy of the Lady of Gold", 
                     "M10",
-                    "\“Where lay only ash, I sowed seeds. Where there was want, I gave succor. I go to the Gods with a light heart.\”"
+                    "\"Where lay only ash, I sowed seeds. Where there was want, I gave succor. I go to the Gods with a light heart.\""
                 )
             );
 
@@ -158,7 +156,7 @@ namespace TitovCore.Cards
             AddCard(CardType.Milestone, new Card(
                     "The Sun Rises", 
                     "M16",
-                    "\“Let the Moon Priests cower in darkness. The Sun is the one true Goddess, and I serve only Her. She shall make my reign as brilliant and terrible as She is.\”"
+                    "\"Let the Moon Priests cower in darkness. The Sun is the one true Goddess, and I serve only Her. She shall make my reign as brilliant and terrible as She is.\""
                 )
             );
 
@@ -271,7 +269,7 @@ namespace TitovCore.Cards
             AddCard(CardType.Action, new Card(
                 "State Rituals", 
                 "C6", 
-                "\"We have far too many gods for the common folk to keep track of. They need only one. Me."\""));
+                "\"We have far too many gods for the common folk to keep track of. They need only one. Me.\""));
             
             AddCard(CardType.Action, new Card(
                 "Royal Guard", 
@@ -396,7 +394,7 @@ namespace TitovCore.Cards
             AddCard(CardType.Action, new Card(
                 "Temple Administration", 
                 "C31", 
-                "\“The Gods have tremendous appetites, you see...\”"));
+                "\"The Gods have tremendous appetites, you see...\""));
             
             AddCard(CardType.Action, new Card(
                 "empty", 
@@ -446,7 +444,7 @@ namespace TitovCore.Cards
             AddCard(CardType.Action, new Card(
                 "Naval Patrol", 
                 "C41", 
-                "\“Give us four of those casks you ‘don’t have’ and we’ll agree that you ‘don’t have’ the other forty.\”"));
+                "\"Give us four of those casks you ‘don’t have’ and we’ll agree that you ‘don’t have’ the other forty.\""));
             
             AddCard(CardType.Action, new Card(
                 "Sun King's Decree", 
