@@ -537,167 +537,199 @@ namespace TitovCore.Cards
             AddCard( CardType.Objective, new Card( 
                 "Peasant Unrest", 
                 "O2", 
-                "Flavor text here..."));
+                "Their eyes are full of anger, their hearts are full of violence, and there are far more of them than we expected."));
             AddCard( CardType.Objective, new Card( 
                 "Uncertain Succession", 
                 "O3", 
-                "Flavor text here..."));
+                "Not that I would ever call Her Majesty’s word into question, but His late Majesty was not, to my recollection, blond."));
             AddCard( CardType.Objective, new Card( 
                 "Civil War", 
                 "O4", 
-                "Flavor text here..."));
+                "In the end, only the vultures won."));
             AddCard( CardType.Objective, new Card( 
-                "At Sun's Edge", 
+                "In Twilight", 
                 "O5", 
-                "Flavor text here..."));
+                "We rule at the heart of the sun, but there are places even its rays do not reach. We must be vigilant."));
             AddCard( CardType.Objective, new Card( 
                 "Moon God's Blessings", 
                 "O6", 
-                "Flavor text here..."));
+                "The Priests of Father Moon have proven most helpful in collecting our taxes. Perhaps we should reward them."));
             AddCard( CardType.Objective, new Card( 
                 "Debt Jubilee", 
                 "O7", 
-                "Flavor text here..."));
+                "If the peasantry doesn’t have the good sense to sell their livestock or a family member or two, why should that concern the crown?"));
             AddCard( CardType.Objective, new Card( 
                 "Raise Moon Temple", 
                 "O8", 
-                "Flavor text here..."));
+                "FLAVOURTK"));
             AddCard( CardType.Objective, new Card( 
                 "Moon Temple", 
                 "O9", 
-                "Flavor text here..."));
+                "FLAVOURTK"));
             AddCard( CardType.Objective, new Card( 
                 "Plague", 
                 "O10", 
-                "Flavor text here..."));
+                "FLAVOURTK"));
             AddCard( CardType.Objective, new Card( 
                 "Raid Beyond the Cataracts", 
                 "O11", 
-                "Flavor text here..."));
+                "Raiders from beyond the Upper Cataracts regularly descend on our villages. It is time we repaid them with interest."));
             AddCard( CardType.Objective, new Card( 
                 "Raid the Sable Coast Princes", 
                 "O12", 
-                "Flavor text here..."));
+                "The rebel princes were our vassals not long ago. Their insolence burns our court like sand on bare skin. "));
             AddCard( CardType.Objective, new Card( 
                 "Raid the Cedar Kings", 
                 "O13", 
-                "Flavor text here..."));
+                "Our old enemy the Cedar King openly makes mock of our fall from glory. Let us show him how far he too can fall."));
             AddCard( CardType.Objective, new Card( 
                 "War Beyond the Cataracts", 
                 "O14", 
-                "Flavor text here..."));
+                "The Hinterland clans have assembled a vast force under a new High King. Our armies stand ready to drive them back."));
             AddCard( CardType.Objective, new Card( 
                 "War with the Sable Coast", 
                 "O15", 
-                "Flavor text here..."));
+                "The rebel princes rally a host of mercenaries to deny our suzerainty. Make them dust beneath your sandal."));
             AddCard( CardType.Objective, new Card( 
                 "War with the Cedar King", 
                 "O16", 
-                "Flavor text here..."));
+                "Contented not with insult, the Cedar King marches on us. With spear and bow, we will make him atone for his arrogance."));
             AddCard( CardType.Objective, new Card( 
                 "Dynasty Triumphant", 
                 "O17", 
-                "Flavor text here..."));
+                "Our enemies are defeated, their treasonous allies scattered. We are sovereign over all the Sun encircles."));
             AddCard( CardType.Objective, new Card( 
                 "Conduct Census", 
                 "O18", 
-                "Flavor text here..."));
+                "\“You and your family are People of the Reeds? Hinterlanders? Estani?\” \“We’re... from wherever here is.\”"));
             AddCard( CardType.Objective, new Card( 
                 "Raise Stele", 
                 "O19", 
-                "Flavor text here..."));
+                "\“Is profile really the most flattering angle to portray the king?\” \“... As opposed to?\”"));
             AddCard( CardType.Objective, new Card( 
                 "Royal Stele", 
                 "O20", 
-                "Flavor text here..."));
+                "\“Tasteful. Subtle. I especially enjoy the scene where I kick my enemies' gods in the groin. Marvelous.\”"));
             AddCard( CardType.Objective, new Card( 
                 "Raise Grand Monument", 
                 "O21", 
-                "Flavor text here..."));
+                "FLAVOURTK"));
             AddCard( CardType.Objective, new Card( 
                 "Grand Monument", 
                 "O22", 
-                "Flavor text here..."));
+                "FLAVOURTK"));
             AddCard( CardType.Objective, new Card( 
                 "Peasant Uprising", 
                 "O23", 
-                "Flavor text here..."));
+                "We sent a tax collector to this village a week ago. Our scouts just fished his body out of the canals. Most of it, anyway."));
+            
+            AddCard( CardType.Objective, new Card( 
+                "EMPTY, 
+                "O24", 
+                "FLAVOURTK"));
+                
+            AddCard( CardType.Objective, new Card( 
+                "EMPTY, 
+                "O25", 
+                "FLAVOURTK"));
+            
             AddCard( CardType.Objective, new Card( 
                 "Envoy from the Mural-Painters", 
                 "O26", 
-                "Flavor text here..."));
+                "The king of the Mural-Painters sends a team of skilled artists, an enormous bronze likeness of himself, and a single word: \"Behold!\""));
+
             AddCard( CardType.Objective, new Card( 
                 "Envoy from the Storm-Followers", 
                 "O27", 
-                "Flavor text here..."));
+                "The emissary of the Storm-King lays a bronze sword on the palace floor. \"Shall I tell my master that you accept this gift or that you will return bearing it?\""));
+
             AddCard( CardType.Objective, new Card( 
                 "Envoy from the Four Sisters", 
                 "O28", 
-                "Flavor text here..."));
+                "Representatives of the free merchant cities known as the Four Sisters have come bearing gifts of oil and dates. They wait with pointed annoyance for an audience."));
             AddCard( CardType.Objective, new Card( 
-                "Envoy from the River-Crossers", 
+                "Envoy from the Empire of Terraces", 
                 "O29", 
-                "Flavor text here..."));
+                "His tablets of legal precedent on the purity of olive oil alone required a separate room. “We would trade, should our laws permit.”"));
             AddCard( CardType.Objective, new Card( 
                 "Envoy from the Lord of Bulls", 
                 "O30", 
-                "Flavor text here..."));
+                "\“Ours is a hard land of bitter olives and sheep’s milk. The bounty of your Great River intrigues us, and we would taste it.\”"));
             AddCard( CardType.Objective, new Card( 
-                "Envoy from the Deep Desert", 
+                "Envoy from the River-Crossers", 
                 "O31", 
-                "Flavor text here..."));
+                "\“His Majesty has need of men and arms. Lesser rulers who have either to offer will be rewarded handsomely.\”"));
+             
+             AddCard( CardType.Objective, new Card( 
+                "EMPTY", 
+                "O32", 
+                "FLAVOURTK"));
+            
+            AddCard( CardType.Objective, new Card( 
+                "EMPTY", 
+                "O33", 
+                "FLAVOURTK"));
+
+             AddCard( CardType.Objective, new Card( 
+                "EMPTY", 
+                "O34", 
+                "FLAVOURTK"));
+            
             AddCard( CardType.Objective, new Card( 
                 "Consolidation", 
                 "O35", 
-                "Flavor text here..."));
+                "One of our vassals has come to us with an interesting proposition - more tribute in exchange for more territory in their domain."));
             AddCard( CardType.Objective, new Card( 
-                "Border Raid", 
+                "Border Raid!", 
                 "O36", 
-                "Flavor text here..."));
+                "Men, dogs, fire, ash. Gone as quick as they came."));
             AddCard( CardType.Objective, new Card( 
                 "Enemy Invades!", 
                 "O37", 
-                "Flavor text here..."));
+                "The enemy advances. Our cities burn. Across the land, our subjects offer desperate prayers for aid."));
             AddCard( CardType.Objective, new Card( 
-                "Capital besieged!", 
+                "Capital Besieged!", 
                 "O38", 
-                "Flavor text here..."));
+                "Our soldiers man the walls, cheeks hunger-hollow. The enemy assembles. One way or another, by nightfall, it ends."));
             AddCard( CardType.Objective, new Card( 
-                "Whispers of Treason", 
+                "Whispers of Treason!", 
                 "O39", 
-                "Flavor text here..."));
+                "A careless word, a glance held a moment too long. Almost certainly nothing. Unless."));
             AddCard( CardType.Objective, new Card( 
-                "Seditious Conspiracy", 
+                "Seditious Conspiracy!", 
                 "O40", 
-                "Flavor text here..."));
+                "Every king must one day relinquish the throne and pass into eternity. Some sooner than others."));
             AddCard( CardType.Objective, new Card( 
-                "Palace Coup", 
+                "Palace Coup!", 
                 "O41", 
-                "Flavor text here..."));
+                "The soft slap of sandals on stone. The gurgle of blood in cut throats. The whisper of your chamber door opening."));
             AddCard( CardType.Objective, new Card( 
-                "Crop Failure", 
+                "Crop Failure!", 
                 "O42", 
-                "Flavor text here..."));
+                "Man is mud. When the Great River dries, we crack."));
             AddCard( CardType.Objective, new Card( 
-                "Famine", 
+                "Famine!", 
                 "O43", 
-                "Flavor text here..."));
+                "In good times, they are children, parents, friends. Now, they are just mouths."));
             AddCard( CardType.Objective, new Card( 
-                "Desolation", 
+                "Desolation!", 
                 "O44", 
-                "Flavor text here..."));
+                "Tongues are stilled. Eyes are sightless. Death reigns over all."));
             AddCard( CardType.Objective, new Card( 
-                "Diplomatic Incident", 
+                "Diplomatic Incident!", 
                 "O45", 
-                "Flavor text here..."));
+                "\“We’re hazy on the details, but it involved a priest, three donkeys, a dozen sailors, and an amphora of honey.\”"));
             AddCard( CardType.Objective, new Card( 
                 "Foreign Claimant", 
                 "O46", 
-                "Flavor text here..."));
+                "To hear him tell it, he was chosen by the Gods themselves to rule. The bags of gold he’s throwing about are just a bonus."));
             AddCard( CardType.Objective, new Card( 
                 "Vassalization", 
                 "O47", 
-                "Flavor text here..."));
+                "\“Our terms are fair. You may keep your head and the crown on it. But you. Must. Kneel.\”"));
+            
+            // NB @ MSA - stop here. Post O47, there have been substantial changes and those all only come up in Act 2. 
+            
             AddCard( CardType.Objective, new Card( 
                 "Thunderheads", 
                 "O48", 
