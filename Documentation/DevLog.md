@@ -9,6 +9,9 @@
 5. [Figma Files](https://www.figma.com/files/team/1361752131146014945/project/291665647?fuid=1112098330417764190)
 
 
+## 3rd June 
+- 
+
 ## 29th November 
 - Every card in the game triggers a change on the game state. 
 - The game state consists of: 
