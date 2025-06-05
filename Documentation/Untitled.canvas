@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"b725b3e24bb6322f","x":-277,"y":-328,"width":377,"height":128,"type":"text","text":"# M1 - The Long Exile  "},
+		{"id":"cafb523f7a3f51d5","type":"text","text":"# M2 - Ways of War   ","x":200,"y":-328,"width":377,"height":128},
+		{"id":"e4e3739f275f2670","type":"text","text":"# M3 - The Turn of The Wheel    ","x":680,"y":-328,"width":377,"height":128},
+		{"id":"74c174efd876e7e0","type":"text","text":"# M4 - The Siege of Esh-Edu","x":1160,"y":-328,"width":377,"height":128},
+		{"id":"e6e1dcb96223057d","type":"text","text":"# M5 - ACT II ","x":1640,"y":-328,"width":377,"height":128},
+		{"id":"9f242212b90bbab8","type":"text","text":"# Objectives Deck\n\n## Initial Deck: \nRitual Taxation\nUncertain Succession\nIn Twilight\nDebt Jubilee\nRaid Beyond the Cataracts\nRaid the Sable Coast Princes\nRaid the Kingdom of the Cedars\nConduct Census\nRaise Stele\n\n----\n","x":558,"y":0,"width":499,"height":600},
+		{"id":"456c30f3c0cade82","x":455,"y":-1400,"width":244,"height":600,"type":"text","text":"# Action Deck\n\n## Initial Deck: \nTax Collection \nTax Collection \nTax Collection \nTax Collection \n\nPublic Ritual\nPublic Ritual\nPublic Ritual\n\nConscription\nConscription\n\nPolitical Maneuvers\n\n---"}
+	],
+	"edges":[
+		{"id":"67b4f50335fa1a68","fromNode":"b725b3e24bb6322f","fromSide":"right","toNode":"cafb523f7a3f51d5","toSide":"left"},
+		{"id":"3e4a2eb079490526","fromNode":"cafb523f7a3f51d5","fromSide":"right","toNode":"e4e3739f275f2670","toSide":"left"},
+		{"id":"4ee4e7dcabdbf1b9","fromNode":"e4e3739f275f2670","fromSide":"right","toNode":"74c174efd876e7e0","toSide":"left"},
+		{"id":"af6b6814a4005ccf","fromNode":"74c174efd876e7e0","fromSide":"right","toNode":"e6e1dcb96223057d","toSide":"left"},
+		{"id":"3bbb8207742eb362","fromNode":"b725b3e24bb6322f","fromSide":"top","toNode":"456c30f3c0cade82","toSide":"left","label":"Replace \n1x Conscription \nwith \nHill Country Conscription "},
+		{"id":"dbc3dce64a3a1e07","fromNode":"b725b3e24bb6322f","fromSide":"top","toNode":"456c30f3c0cade82","toSide":"top","label":"Add \nHill Country Couriers"}
+	]
+}

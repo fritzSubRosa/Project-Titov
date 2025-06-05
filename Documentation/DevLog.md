@@ -9,8 +9,15 @@
 5. [Figma Files](https://www.figma.com/files/team/1361752131146014945/project/291665647?fuid=1112098330417764190)
 
 
-## 3rd June 
-- 
+## 4th June 
+- Playing a milestone, you either pay a cost for it or meet a condition for it. Im making this distinct because costs are directly resources but conditions can be different. 
+- I've removed the previous milestones that were implementing a prefab based, complicated inheritance system i think that is premature optimization. 
+- I have reimplemented all the milestone cards as independent cards. They have a structure but for now I will probably treat them as independent Prefabs 
+- From the fourth milestone I have got a battle meter. I have implemented a battlemeter handler script and made the 6 step battlemeter into a class. 
+- This battlemeter is referenced in the card's specific script and then we can move it forward or backward. 
+- The script is generic, but the meter prefab is a six step battlemeter.  I see some objective cards have a 4 step battlemeter as well. So I will create an alternate prefab for that later, which will have 4 steps. But the functioning principle will remain the same, 
+- Speaking of components, I have made the resources in the resources UI section into prefabs. All of them belong to the same prefab and then I change their name and icon. 
+- Next up: I need to implement a system to resolve the effects of all cards, implement physical versions of all the objective cards and action cards. 
 
 ## 29th November 
 - Every card in the game triggers a change on the game state. 
