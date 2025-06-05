@@ -5,18 +5,12 @@ namespace TitovCore.Cards.Milestones
 {
     public class M4TheSiegeOfEshEdu : MilestoneCard
     {
-        public int totalSteps;
-        public int currentStep;
+        
+        public BattleMeterHandler battleMeter;
 
         public void GoForward()
         {
-            if (GameState.Instance.might.Value >= 1)
-            {
-                GameState.Instance.might.SpendValue(1);
-                currentStep++;
-                if (currentStep > totalSteps)
-                    WonBattle();
-            }
+            battleMeter.MoveForward();
         }
 
         private void LostBattle()
@@ -34,19 +28,12 @@ namespace TitovCore.Cards.Milestones
         
         public override void ResolveCard()
         {
-            currentStep -= 1;
-            if (currentStep < 0)
-                LostBattle();
+            battleMeter.MoveBackwards();
             Debug.Log("M4TheSiegeOfEshEdu::ResolveCard -- Card Resolved.");
         }
 
         private void CardEffect()
         {
-            currentStep -= 3;
-            if (currentStep < 0)
-            {
-                LostBattle();
-            }
         }
     }
 }
