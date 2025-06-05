@@ -601,15 +601,15 @@ namespace TitovCore.Cards
             AddCard( CardType.Objective, new Card( 
                 "Conduct Census", 
                 "O18", 
-                "\“You and your family are People of the Reeds? Hinterlanders? Estani?\” \“We’re... from wherever here is.\”"));
+                "\"You and your family are People of the Reeds? Hinterlanders? Estani?\" \"We’re... from wherever here is.\""));
             AddCard( CardType.Objective, new Card( 
                 "Raise Stele", 
                 "O19", 
-                "\“Is profile really the most flattering angle to portray the king?\” \“... As opposed to?\”"));
+                "\"Is profile really the most flattering angle to portray the king?\" \"... As opposed to?\""));
             AddCard( CardType.Objective, new Card( 
                 "Royal Stele", 
                 "O20", 
-                "\“Tasteful. Subtle. I especially enjoy the scene where I kick my enemies' gods in the groin. Marvelous.\”"));
+                "\"Tasteful. Subtle. I especially enjoy the scene where I kick my enemies' gods in the groin. Marvelous.\""));
             AddCard( CardType.Objective, new Card( 
                 "Raise Grand Monument", 
                 "O21", 
@@ -624,12 +624,12 @@ namespace TitovCore.Cards
                 "We sent a tax collector to this village a week ago. Our scouts just fished his body out of the canals. Most of it, anyway."));
             
             AddCard( CardType.Objective, new Card( 
-                "EMPTY, 
+                "EMPTY",
                 "O24", 
                 "FLAVOURTK"));
                 
             AddCard( CardType.Objective, new Card( 
-                "EMPTY, 
+                "EMPTY", 
                 "O25", 
                 "FLAVOURTK"));
             
@@ -654,11 +654,11 @@ namespace TitovCore.Cards
             AddCard( CardType.Objective, new Card( 
                 "Envoy from the Lord of Bulls", 
                 "O30", 
-                "\“Ours is a hard land of bitter olives and sheep’s milk. The bounty of your Great River intrigues us, and we would taste it.\”"));
+                "\"Ours is a hard land of bitter olives and sheep’s milk. The bounty of your Great River intrigues us, and we would taste it.\""));
             AddCard( CardType.Objective, new Card( 
                 "Envoy from the River-Crossers", 
                 "O31", 
-                "\“His Majesty has need of men and arms. Lesser rulers who have either to offer will be rewarded handsomely.\”"));
+                "\"His Majesty has need of men and arms. Lesser rulers who have either to offer will be rewarded handsomely.\""));
              
              AddCard( CardType.Objective, new Card( 
                 "EMPTY", 
@@ -718,7 +718,7 @@ namespace TitovCore.Cards
             AddCard( CardType.Objective, new Card( 
                 "Diplomatic Incident!", 
                 "O45", 
-                "\“We’re hazy on the details, but it involved a priest, three donkeys, a dozen sailors, and an amphora of honey.\”"));
+                "\"We’re hazy on the details, but it involved a priest, three donkeys, a dozen sailors, and an amphora of honey.\""));
             AddCard( CardType.Objective, new Card( 
                 "Foreign Claimant", 
                 "O46", 
@@ -726,7 +726,7 @@ namespace TitovCore.Cards
             AddCard( CardType.Objective, new Card( 
                 "Vassalization", 
                 "O47", 
-                "\“Our terms are fair. You may keep your head and the crown on it. But you. Must. Kneel.\”"));
+                "\"Our terms are fair. You may keep your head and the crown on it. But you. Must. Kneel.\""));
             
             // NB @ MSA - stop here. Post O47, there have been substantial changes and those all only come up in Act 2. 
             
