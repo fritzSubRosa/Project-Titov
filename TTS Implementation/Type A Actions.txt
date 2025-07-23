@@ -1,0 +1,69 @@
+;Uncomment this in order to prodce deck in entirety.
+;LINKMULTI = Count
+LINK = "1iMPmey1Bsb8MEWvrj-sU0RjB1JXHKnG8AiwxZh5LG8o&gid=0#gid=0"
+
+; Settings
+UNIT = INCH
+PAGE = 8.5, 11, PORTRAIT
+BORDER = RECTANGLE, #000000, 0.1
+
+; Icons
+;ICON = , D, mercantile.png
+
+;Resources
+HTMLIMAGE = , (food), Symbols/food.png, 0.2,0.2,P
+HTMLIMAGE = , (stability), Symbols/stability.png, 0.2,0.2,P
+HTMLIMAGE = , (might), Symbols/might.png, 0.2,0.2,P
+HTMLIMAGE = , (influence), Symbols/influence.png, 0.2,0.2,P
+HTMLIMAGE = , (trade_good), Symbols/trade_good.png, 0.2,0.2,P
+HTMLIMAGE = , (any), Symbols/any.png, 0.2,0.2,P
+
+;Actions
+HTMLIMAGE = , (draw_card), Symbols/draw.png, 0.2,0.2,P
+HTMLIMAGE = , (disrupt), Symbols/disrupt.png, 0.2,0.2,P
+HTMLIMAGE = , (delay), Symbols/delay.png, 0.2,0.2,P
+HTMLIMAGE = , (scout), Symbols/scout.png, 0.2,0.2,P
+HTMLIMAGE = , (recur), Symbols/recur.png, 0.2,0.2,P
+
+;Subtypes
+HTMLIMAGE = , (statecraft), Symbols/statecraft.png, 0.2,0.2,P
+HTMLIMAGE = , (troop), Symbols/troop.png, 0.2,0.2,P
+HTMLIMAGE = , (ma'at), Symbols/ma'at.png, 0.2,0.2,P
+HTMLIMAGE = , (expendable), Symbols/expendable.png, 0.2,0.2,P
+HTMLIMAGE = , (sun), Symbols/sun.png, 0.2,0.2,P
+HTMLIMAGE = , (moon), Symbols/moon.png, 0.2,0.2,P
+HTMLIMAGE = , (project), Symbols/project.png, 0.2,0.2,P
+HTMLIMAGE = , (leader), Symbols/leader.png, 0.2,0.2,P
+HTMLIMAGE = , (fleet), Symbols/fleet.png, 0.2,0.2,P
+HTMLIMAGE = , (prestige), Symbols/prestige.png, 0.2,0.2,P
+HTMLIMAGE = , (food_subtype), Symbols/food_subtype.png, 0.2,0.2,P
+HTMLIMAGE = , (stability_subtype), Symbols/stability_subtype.png, 0.2,0.2,P
+HTMLIMAGE = , (might_subtype), Symbols/might_subtype.png, 0.2,0.2,P
+HTMLIMAGE = , (influence_subtype), Symbols/influence_subtype.png, 0.2,0.2,P
+
+
+
+VISUAL=, 10, 10
+;Title Font
+HTMLFONT=TitleFont,Arial,18,B,#000000,CENTER
+;SubFont
+HTMLFONT=SubFont,Arial,8,U,#000000
+;FlavourFont
+HTMLFONT=FlavourFont,Arial,8,I,#000000,CENTER
+;EffectFont
+HTMLFONT=EffectFont,Arial,12,,#000000,CENTER
+;Title
+HTMLTEXT="1-{(TITLE)}",[TITLE],{11509/600}%,{3809/900}%,{3007/40}%,{23113/900}%,#FFFFFF,0,,100,TitleFont
+;Cost
+HTMLTEXT="1-{(COST)}",[COST],{2369/600}%,{457/180}%,{3131/300}%,{32257/900}%
+;Effect
+HTMLTEXT="1-{(EFFECT)}",[EFFECT],{4739/600}%,{14393/450}%,{51029/600}%,{13349/300}%,#FFFFFF,0,,100,EffectFont
+;Flavour
+HTMLTEXT="1-{(FLAVOUR)}",[FLAVOUR],{2031/200}%,{17801/225}%,{6019/75}%,{7027/450}%,#FFFFFF,0,,100,FlavourFont
+ENDVISUAL
+
+;Hotfix here
+DISPLAY = "Hotfix 5 by 2.png", 21,21,5x2
+
+;DISPLAY = "Actions Type A 1.png", 1,50, 10x5
+;DISPLAY = "Actions Type A 2.png", 51,100, 10x5
