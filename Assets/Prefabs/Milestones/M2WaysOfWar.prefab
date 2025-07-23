@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2780978091142489699
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 37881500740202446, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_text
+      value: Preserve the old ways
+      objectReference: {fileID: 0}
+    - target: {fileID: 974738300339047968, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_text
+      value: Embrace chariots
+      objectReference: {fileID: 0}
+    - target: {fileID: 1252468115978131971, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_text
+      value: The Wheel-Turners were so named for their new way of war - standing
+        armies led by chariot-riding nobles. Perhaps we may defeat them by emulating
+        them.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2101919073626060799, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_text
+      value: "Gain \u201CBorder Raid\u201D and \u201CWhispers of Treason.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2514843312092142703, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_Name
+      value: M2WaysOfWar
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786005213522955882, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_text
+      value: "Spend 4x Influence\n\n- Gain \u201CRoyal Guard.\u201D \n- Max  Stability
+        +2"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4804468117970750459, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5276970082589578915}
+    - target: {fileID: 4804468117970750459, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PreserveTheOldWays
+      objectReference: {fileID: 0}
+    - target: {fileID: 4804468117970750459, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TitovCore.Cards.Milestones.M2WaysOfWar, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042518264576494430, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_text
+      value: M2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5062670196928490441, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5276970082589578915}
+    - target: {fileID: 5062670196928490441, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EmbraceChariots
+      objectReference: {fileID: 0}
+    - target: {fileID: 5062670196928490441, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TitovCore.Cards.Milestones.M2WaysOfWar, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 240
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 336
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345543298764168326, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7058094707766987738, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_text
+      value: Ways of War
+      objectReference: {fileID: 0}
+    - target: {fileID: 8527920070444110628, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      propertyPath: m_text
+      value: "Spend 4x Stability\n\n- Gain \u201CNoble Charioteers.\u201D \n- Max
+        Might+2"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2514843312092142703, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5276970082589578915}
+  m_SourcePrefab: {fileID: 100100000, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+--- !u!1 &323837501765974540 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2514843312092142703, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+  m_PrefabInstance: {fileID: 2780978091142489699}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5276970082589578915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323837501765974540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67d3f3d07584c2688db73439de2eca1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 4
+  timerElapsed: 0
+  code: {fileID: 7161457279440612669}
+  title: {fileID: 5146320709352762809}
+  flavorText: {fileID: 4033446030485765216}
+--- !u!114 &4033446030485765216 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1252468115978131971, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+  m_PrefabInstance: {fileID: 2780978091142489699}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5146320709352762809 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7058094707766987738, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+  m_PrefabInstance: {fileID: 2780978091142489699}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7161457279440612669 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5042518264576494430, guid: 17aa2f8d0988b4033b5cf3b6d71d244f, type: 3}
+  m_PrefabInstance: {fileID: 2780978091142489699}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
