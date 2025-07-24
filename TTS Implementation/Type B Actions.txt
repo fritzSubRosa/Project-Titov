@@ -39,12 +39,11 @@ HTMLIMAGE = , (moon), Symbols/moon.png, 0.2,0.2,P
 HTMLIMAGE = , (project), Symbols/project.png, 0.2,0.2,P
 HTMLIMAGE = , (leader), Symbols/leader.png, 0.2,0.2,P
 HTMLIMAGE = , (fleet), Symbols/fleet.png, 0.2,0.2,P
+HTMLIMAGE = , (prestige), Symbols/prestige.png, 0.2,0.2,P
 HTMLIMAGE = , (food_subtype), Symbols/food_subtype.png, 0.2,0.2,P
 HTMLIMAGE = , (stability_subtype), Symbols/stability_subtype.png, 0.2,0.2,P
 HTMLIMAGE = , (might_subtype), Symbols/might_subtype.png, 0.2,0.2,P
 HTMLIMAGE = , (influence_subtype), Symbols/influence_subtype.png, 0.2,0.2,P
-
-
 
 VISUAL=, 10, 10
 ;Title Font

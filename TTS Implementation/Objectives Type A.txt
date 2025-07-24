@@ -1,0 +1,192 @@
+;Uncomment this in order to prodce deck in entirety.
+;LINKMULTI = Count
+LINK = "1iMPmey1Bsb8MEWvrj-sU0RjB1JXHKnG8AiwxZh5LG8o&441940663&gid=1037548075
+
+; Settings
+UNIT = INCH
+PAGE = 8.5, 11, PORTRAIT
+BORDER = RECTANGLE, #000000, 0.1
+CARDSIZE = 2.75, 4.75
+
+;Clocks
+HTMLIMAGE = , (twoClock), Symbols/twoClock.png, 0.3,0.3,P
+HTMLIMAGE = , (threeClock), Symbols/threeClock.png, 0.3,0.3,P
+HTMLIMAGE = , (fourClock), Symbols/fourClock.png, 0.3,0.3,P
+HTMLIMAGE = , (sixClock), Symbols/sixClock.png, 0.3,0.3,P
+
+;War Sizes
+HTMLIMAGE = , (sixWar), Symbols/sixWar.png, 3.0,0.6,P
+
+;Resources
+HTMLIMAGE = , (food), Symbols/food.png, 0.2,0.2,P
+HTMLIMAGE = , (food_mini), Symbols/food.png, 0.15,0.15,P
+HTMLIMAGE = , (stability), Symbols/stability.png, 0.2,0.2,P
+HTMLIMAGE = , (stability_mini), Symbols/stability.png, 0.15,0.15,P
+HTMLIMAGE = , (might), Symbols/might.png, 0.2,0.2,P
+HTMLIMAGE = , (might_mini), Symbols/might.png, 0.15,0.15,P
+HTMLIMAGE = , (influence), Symbols/influence.png, 0.2,0.2,P
+HTMLIMAGE = , (influence_mini), Symbols/influence.png, 0.15,0.15,P
+HTMLIMAGE = , (trade_good), Symbols/trade_good.png, 0.2,0.2,P
+HTMLIMAGE = , (trade_good_mini), Symbols/trade_good.png, 0.15,0.15,P
+HTMLIMAGE = , (any), Symbols/any.png, 0.2,0.2,P
+
+;Actions
+HTMLIMAGE = , (draw_card), Symbols/draw.png, 0.2,0.2,P
+HTMLIMAGE = , (draw_card_mini), Symbols/draw.png, 0.15,0.15,P
+HTMLIMAGE = , (disrupt), Symbols/disrupt.png, 0.2,0.2,P
+HTMLIMAGE = , (delay), Symbols/delay.png, 0.2,0.2,P
+HTMLIMAGE = , (scout), Symbols/scout.png, 0.2,0.2,P
+HTMLIMAGE = , (scout_mini), Symbols/scout.png, 0.15,0.15,P
+HTMLIMAGE = , (recur), Symbols/recur.png, 0.2,0.2,P
+HTMLIMAGE = , (recur_mini), Symbols/recur.png, 0.15,0.15,P
+HTMLIMAGE = , (reshuffle), Symbols/reshuffle.png, 0.2,0.2,P
+HTMLIMAGE = , (reshuffle_mini), Symbols/reshuffle.png, 0.15,0.15,P
+HTMLIMAGE = , (swap), Symbols/replace.png, 0.2,0.2,P
+HTMLIMAGE = , (swap_mini), Symbols/replace.png, 0.15,0.15,P
+HTMLIMAGE = , (mutate), Symbols/transform.png, 0.2,0.2,P
+HTMLIMAGE = , (mutate_mini), Symbols/transform.png, 0.15,0.15,P
+HTMLIMAGE = , (specialize), Symbols/specialize.png, 0.2,0.2,P
+HTMLIMAGE = , (specialize_mini), Symbols/specialize.png, 0.15,0.15,P
+HTMLIMAGE = , (reset), Symbols/reset.png, 0.2,0.2,P
+HTMLIMAGE = , (reset_mini), Symbols/reset.png, 0.15,0.15,P
+HTMLIMAGE = , (gain), Symbols/gain_card.png, 0.2,0.2,P
+HTMLIMAGE = , (gain_mini), Symbols/gain_card.png, 0.15,0.15,P
+HTMLIMAGE = , (destroy), Symbols/destroy.png, 0.2,0.2,P
+HTMLIMAGE = , (destroy_mini), Symbols/destroy.png, 0.15,0.15,P
+HTMLIMAGE = , (return), Symbols/return.png, 0.2,0.2,P
+HTMLIMAGE = , (return_mini), Symbols/return.png, 0.15,0.15,P
+
+;Card Subtypes
+HTMLIMAGE = , (statecraft), Symbols/statecraft.png, 0.2,0.2,P
+HTMLIMAGE = , (statecraft_mini), Symbols/statecraft.png, 0.15,0.15,P
+HTMLIMAGE = , (troop), Symbols/troop.png, 0.2,0.2,P
+HTMLIMAGE = , (troop_mini), Symbols/troop.png, 0.15,0.15,P
+HTMLIMAGE = , (ma'at), Symbols/ma'at.png, 0.2,0.2,P
+HTMLIMAGE = , (ma'at_mini), Symbols/ma'at.png, 0.15,0.15,P
+HTMLIMAGE = , (expendable), Symbols/expendable.png, 0.2,0.2,P
+HTMLIMAGE = , (sun), Symbols/sun.png, 0.2,0.2,P
+HTMLIMAGE = , (sun_mini), Symbols/sun.png, 0.15,0.15,P
+HTMLIMAGE = , (moon), Symbols/moon.png, 0.2,0.2,P
+HTMLIMAGE = , (moon_mini), Symbols/moon.png, 0.15,0.15,P
+HTMLIMAGE = , (project), Symbols/project.png, 0.2,0.2,P
+HTMLIMAGE = , (project_mini), Symbols/project.png, 0.15,0.15,P
+HTMLIMAGE = , (leader), Symbols/leader.png, 0.2,0.2,P
+HTMLIMAGE = , (fleet), Symbols/fleet.png, 0.2,0.2,P
+HTMLIMAGE = , (fleet_mini), Symbols/fleet.png, 0.15,0.15,P
+HTMLIMAGE = , (prestige), Symbols/prestige.png, 0.2,0.2,P
+HTMLIMAGE = , (prestige_mini), Symbols/prestige.png, 0.15,0.15,P
+HTMLIMAGE = , (mandatory), Symbols/mandatory.png, 0.2,0.2,P
+
+;Regency
+HTMLIMAGE = , (regent), Symbols/regent.png, 0.2,0.2,P
+HTMLIMAGE = , (regent_mini), Symbols/regent.png, 0.15,0.15,P
+HTMLIMAGE = , (rule), Symbols/rule.png, 0.2,0.2,P
+HTMLIMAGE = , (rule_mini), Symbols/rule.png, 0.15,0.15,P
+HTMLIMAGE = , (council), Symbols/council.png, 0.2,0.2,P
+HTMLIMAGE = , (council_mini), Symbols/council.png, 0.15,0.15,P
+
+;Eclipse
+HTMLIMAGE = , (eclipse), Symbols/eclipse.png, 0.2,0.2,P
+HTMLIMAGE = , (eclipse_mini), Symbols/eclipse.png, 0.15,0.15,P
+HTMLIMAGE = , (reform), Symbols/reform.png, 0.2,0.2,P
+HTMLIMAGE = , (reform_mini), Symbols/reform.png, 0.15,0.15,P
+HTMLIMAGE = , (priesthood), Symbols/priesthood.png, 0.2,0.2,P
+HTMLIMAGE = , (priesthood_mini), Symbols/priesthood.png, 0.15,0.15,P
+
+;War
+HTMLIMAGE = , (war), Symbols/war.png, 0.2,0.2,P
+HTMLIMAGE = , (frontline_macro), Symbols/frontline.png, 0.3,0.3,P
+HTMLIMAGE = , (frontline), Symbols/frontline.png, 0.3,0.3,P
+HTMLIMAGE = , (frontline_mini), Symbols/frontline.png, 0.15,0.15,P
+HTMLIMAGE = , (victory), Symbols/victory.png, 0.2,0.2,P
+HTMLIMAGE = , (defeat), Symbols/defeat.png, 0.2,0.2,P
+
+;Objective Subtypes
+HTMLIMAGE = , (inevitable), Symbols/inevitable.png, 0.2,0.2,P
+HTMLIMAGE = , (cataclysm), Symbols/cataclysm.png, 0.2,0.2,P
+HTMLIMAGE = , (cataclysm_mini), Symbols/cataclysm.png, 0.15,0.15,P
+HTMLIMAGE = , (trade), Symbols/trade.png, 0.2,0.2,P
+HTMLIMAGE = , (trade_mini), Symbols/trade.png, 0.15,0.15,P
+
+;Province Subtypes
+HTMLIMAGE = , (province), Symbols/province.png, 0.2,0.2,P
+HTMLIMAGE = , (province_mini), Symbols/province.png, 0.15,0.15,P
+HTMLIMAGE = , (cedars), Symbols/cedars.png, 0.2,0.2,P
+HTMLIMAGE = , (cedars_mini), Symbols/cedars.png, 0.15,0.15,P
+HTMLIMAGE = , (sable), Symbols/sable.png, 0.2,0.2,P
+HTMLIMAGE = , (sable_mini), Symbols/sable.png, 0.15,0.15,P
+HTMLIMAGE = , (cataracts), Symbols/cataracts.png, 0.2,0.2,P
+HTMLIMAGE = , (cataracts_mini), Symbols/cataracts.png, 0.15,0.15,P
+HTMLIMAGE = , (storms), Symbols/storms.png, 0.2,0.2,P
+HTMLIMAGE = , (storms_mini), Symbols/storms.png, 0.15,0.15,P
+HTMLIMAGE = , (murals), Symbols/murals.png, 0.2,0.2,P
+HTMLIMAGE = , (murals_mini), Symbols/murals.png, 0.15,0.15,P
+HTMLIMAGE = , (sisters), Symbols/sisters.png, 0.2,0.2,P
+HTMLIMAGE = , (sisters_mini), Symbols/sisters.png, 0.15,0.15,P
+HTMLIMAGE = , (rivers), Symbols/rivers.png, 0.2,0.2,P
+HTMLIMAGE = , (rivers_mini), Symbols/rivers.png, 0.15,0.15,P
+HTMLIMAGE = , (terraces), Symbols/terraces.png, 0.2,0.2,P
+HTMLIMAGE = , (terraces_mini), Symbols/terraces.png, 0.15,0.15,P
+HTMLIMAGE = , (bulls), Symbols/bulls.png, 0.2,0.2,P
+HTMLIMAGE = , (bulls_mini), Symbols/bulls.png, 0.15,0.15,P
+
+;Resource Subtypes
+HTMLIMAGE = , (food_subtype), Symbols/food_subtype.png, 0.2,0.2,P
+HTMLIMAGE = , (stability_subtype), Symbols/stability_subtype.png, 0.2,0.2,P
+HTMLIMAGE = , (might_subtype), Symbols/might_subtype.png, 0.2,0.2,P
+HTMLIMAGE = , (influence_subtype), Symbols/influence_subtype.png, 0.2,0.2,P
+
+VISUAL=, 10, 10
+;Title Font
+HTMLFONT=TitleFont,Arial,16,B,#000000,CENTER
+;SubFont
+HTMLFONT=SubFont,Arial,8,U,#000000
+;FlavourFont
+HTMLFONT=FlavourFont,Arial,8,I,#000000,CENTER
+;ClockOutcomeFont
+HTMLFONT=ClockOutcome,Arial,10,,#000000,LEFT
+;SpendFont
+HTMLFONT=SpendFont,Arial,8,,#000000,CENTER
+;EffectFont
+HTMLFONT=EffectFont,Arial,8,,#000000,CENTER
+;Trigger/Else Font
+HTMLFONT=TriggerElse,Arial,12,B,#000000,CENTER
+;Timer Outcome Text
+HTMLFONT=TimerOutcome,Arial,8,,#000000
+;HeaderFont
+HTMLFONT=HeaderFont,Arial,10,B,#000000,CENTER
+;TriggerFont
+HTMLFONT=TriggerFont,Arial,8,,#000000,CENTER
+;OutcomeFont
+HTMLFONT=OutcomeFont,Arial,8,,#000000
+;ID Number Font
+HTMLFONT=IDFont,Arial,6,,#000000
+;Title
+HTMLTEXT="1-{(TITLE)}",[TITLE],{4489/463}%,{1291/400}%,{36983/463}%,{12743/800}%,#FFFFFF,0,,100,TitleFont
+;Timer
+HTMLTEXT="1-{(TIMER)}",[TIMER],{1795/463}%,{18077/200}%,{5724/463}%,{6063/800}%
+;Timer Outcome
+HTMLTEXT="1-{(TIMER OUTCOME)}",[TIMER OUTCOME],{8754/463}%,{71971/800}%,{35468/463}%,{1381/160}%,#FFFFFF,0,,100,TimerOutcome
+;Flavour
+HTMLTEXT="1-{(FLAVOUR)}",[FLAVOUR],{4545/463}%,{631/32}%,{37208/463}%,{307/25}%,#FFFFFF,0,,100,FlavourFont
+;Timer Divider
+RECTANGLE=,0%,{34919/400}%,100%,{673/800}%,#000000
+;Header A
+HTMLTEXT="1-{(DILEMMA CHOICE A)}",[DILEMMA CHOICE A],{5107/463}%,{14091/400}%,{37488/463}%,{821/100}%,#FFFFFF,0,,100,HeaderFont
+;Trigger A
+HTMLTEXT="1-{(DILEMMA TRIGGER A)}",[DILEMMA TRIGGER A],{4938/463}%,{15747/400}%,{37657/463}%,{5557/800}%,#FFFFFF,0,,100,TriggerFont
+;Outcome A
+HTMLTEXT="1-{(DILEMMA EFFECT A)}",[DILEMMA EFFECT A],{6229/463}%,{35929/800}%,{35580/463}%,{183/16}%,#FFFFFF,0,,100,OutcomeFont
+BUTTON=,{2300/463}%,32%,{42988/463}%,{21277/800}%,5%,I
+BUTTON=,{2244/463}%,{47831/800}%,{42764/463}%,{10077/400}%,5%,I
+;Header B
+HTMLTEXT="1-{(DILEMMA CHOICE B)}",[DILEMMA CHOICE B],{5107/463}%,{1015/16}%,{37264/463}%,{2891/400}%,#FFFFFF,0,,100,HeaderFont
+;Trigger B
+HTMLTEXT="1-{(DILEMMA TRIGGER B)}",[DILEMMA TRIGGER B],{5050/463}%,{54007/800}%,{37376/463}%,{2049/400}%,#FFFFFF,0,,100,TriggerFont
+;Outcome B
+HTMLTEXT="1-{(DILEMMA EFFECT B)}",[DILEMMA EFFECT B],{6229/463}%,{29249/400}%,{36815/463}%,{4491/400}%,#FFFFFF,0,,100,OutcomeFont
+;ID Number
+HTMLTEXT="1-{(CARD ID)}",[CARD ID],{41810/463}%,{477/400}%,{3591/463}%,{449/100}%,#FFFFFF,0,,100,IDFont
+ENDVISUAL
+
+DISPLAY="Objectives Type A.png",,,10x5

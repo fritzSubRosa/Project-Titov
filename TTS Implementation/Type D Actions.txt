@@ -1,0 +1,128 @@
+;Uncomment this in order to prodce deck in entirety.
+;LINKMULTI = Count
+LINK = "1iMPmey1Bsb8MEWvrj-sU0RjB1JXHKnG8AiwxZh5LG8o&441940663&gid=169704377
+
+; Settings
+UNIT = INCH
+PAGE = 8.5, 11, PORTRAIT
+BORDER = RECTANGLE, #000000, 0.1
+
+;Clocks
+HTMLIMAGE = , (twoClock), Symbols/twoClock.png, 0.3,0.3,P
+HTMLIMAGE = , (threeClock), Symbols/threeClock.png, 0.3,0.3,P
+HTMLIMAGE = , (fourClock), Symbols/fourClock.png, 0.3,0.3,P
+HTMLIMAGE = , (sixClock), Symbols/sixClock.png, 0.3,0.3,P
+
+;Resources
+HTMLIMAGE = , (food), Symbols/food.png, 0.2,0.2,P
+HTMLIMAGE = , (food_mini), Symbols/food.png, 0.15,0.15,P
+HTMLIMAGE = , (stability), Symbols/stability.png, 0.2,0.2,P
+HTMLIMAGE = , (stability_mini), Symbols/stability.png, 0.15,0.15,P
+HTMLIMAGE = , (might), Symbols/might.png, 0.2,0.2,P
+HTMLIMAGE = , (might_mini), Symbols/might.png, 0.15,0.15,P
+HTMLIMAGE = , (influence), Symbols/influence.png, 0.2,0.2,P
+HTMLIMAGE = , (influence_mini), Symbols/influence.png, 0.15,0.15,P
+HTMLIMAGE = , (trade_good), Symbols/trade_good.png, 0.2,0.2,P
+HTMLIMAGE = , (trade_good_mini), Symbols/trade_good.png, 0.15,0.15,P
+HTMLIMAGE = , (any), Symbols/any.png, 0.2,0.2,P
+
+;Actions
+HTMLIMAGE = , (draw_card), Symbols/draw.png, 0.2,0.2,P
+HTMLIMAGE = , (disrupt), Symbols/disrupt.png, 0.2,0.2,P
+HTMLIMAGE = , (delay), Symbols/delay.png, 0.2,0.2,P
+HTMLIMAGE = , (scout), Symbols/scout.png, 0.2,0.2,P
+HTMLIMAGE = , (recur), Symbols/recur.png, 0.2,0.2,P
+HTMLIMAGE = , (recur_mini), Symbols/recur.png, 0.15,0.15,P
+HTMLIMAGE = , (reshuffle), Symbols/reshuffle.png, 0.2,0.2,P
+HTMLIMAGE = , (reshuffle_mini), Symbols/reshuffle.png, 0.15,0.15,P
+HTMLIMAGE = , (swap), Symbols/replace.png, 0.2,0.2,P
+HTMLIMAGE = , (swap_mini), Symbols/replace.png, 0.15, 0.15, P
+HTMLIMAGE = , (mutate), Symbols/transform.png, 0.2,0.2,P
+HTMLIMAGE = , (mutate_mini), Symbols/transform.png, 0.15,0.15,P
+HTMLIMAGE = , (specialize), Symbols/specialize.png, 0.2,0.2,P
+HTMLIMAGE = , (specialize_mini), Symbols/specialize.png, 0.15,0.15,P
+HTMLIMAGE = , (reset), Symbols/reset.png, 0.2,0.2,P
+HTMLIMAGE = , (reset_mini), Symbols/reset.png, 0.15,0.15,P
+HTMLIMAGE = , (gain), Symbols/gain_card.png, 0.2,0.2,P
+HTMLIMAGE = , (gain_mini), Symbols/gain_card.png, 0.15,0.15,P
+HTMLIMAGE = , (destroy), Symbols/destroy.png, 0.2,0.2,P
+HTMLIMAGE = , (destroy_mini), Symbols/destroy.png, 0.15,0.15,P
+
+;Subtypes
+HTMLIMAGE = , (statecraft), Symbols/statecraft.png, 0.2,0.2,P
+HTMLIMAGE = , (statecraft_mini), Symbols/statecraft.png, 0.15,0.15,P
+HTMLIMAGE = , (troop), Symbols/troop.png, 0.2,0.2,P
+HTMLIMAGE = , (troop_mini), Symbols/troop.png, 0.15,0.15,P
+HTMLIMAGE = , (ma'at), Symbols/ma'at.png, 0.2,0.2,P
+HTMLIMAGE = , (ma'at_mini), Symbols/ma'at.png, 0.15,0.15,P
+HTMLIMAGE = , (expendable), Symbols/expendable.png, 0.2,0.2,P
+HTMLIMAGE = , (sun), Symbols/sun.png, 0.2,0.2,P
+HTMLIMAGE = , (sun_mini), Symbols/sun.png, 0.15,0.15,P
+HTMLIMAGE = , (moon), Symbols/moon.png, 0.2,0.2,P
+HTMLIMAGE = , (moon_mini), Symbols/moon.png, 0.15,0.15,P
+HTMLIMAGE = , (project), Symbols/project.png, 0.2,0.2,P
+HTMLIMAGE = , (leader), Symbols/leader.png, 0.2,0.2,P
+HTMLIMAGE = , (fleet), Symbols/fleet.png, 0.2,0.2,P
+HTMLIMAGE = , (fleet_mini), Symbols/fleet.png, 0.15,0.15,P
+HTMLIMAGE = , (prestige), Symbols/prestige.png, 0.2,0.2,P
+HTMLIMAGE = , (troop_mini), Symbols/troop.png, 0.15,0.15,P
+HTMLIMAGE = , (war), Symbols/war.png, 0.2,0.2,P
+HTMLIMAGE = , (mandatory), Symbols/mandatory.png, 0.2,0.2,P
+HTMLIMAGE = , (inevitable), Symbols/inevitable.png, 0.2,0.2,P
+HTMLIMAGE = , (cataclysm), Symbols/cataclysm.png, 0.2,0.2,P
+HTMLIMAGE = , (cataclysm_mini), Symbols/cataclysm.png, 0.2,0.2,P
+HTMLIMAGE = , (province), Symbols/province.png, 0.2,0.2,P
+HTMLIMAGE = , (province_mini), Symbols/province.png, 0.15,0.15,P
+HTMLIMAGE = , (cedars), Symbols/cedars.png, 0.2,0.2,P
+HTMLIMAGE = , (cedars_mini), Symbols/cedars.png, 0.15,0.15,P
+HTMLIMAGE = , (sable), Symbols/sable.png, 0.2,0.2,P
+HTMLIMAGE = , (sable_mini), Symbols/sable.png, 0.15,0.15,P
+HTMLIMAGE = , (cataracts), Symbols/cataracts.png, 0.2,0.2,P
+HTMLIMAGE = , (cataracts_mini), Symbols/cataracts.png, 0.15,0.15,P
+HTMLIMAGE = , (storms), Symbols/storms.png, 0.2,0.2,P
+HTMLIMAGE = , (storms_mini), Symbols/storms.png, 0.15,0.15,P
+HTMLIMAGE = , (murals), Symbols/murals.png, 0.2,0.2,P
+HTMLIMAGE = , (murals_mini), Symbols/murals.png, 0.15,0.15,P
+HTMLIMAGE = , (sisters), Symbols/sisters.png, 0.2,0.2,P
+HTMLIMAGE = , (sisters_mini), Symbols/sisters.png, 0.15,0.15,P
+HTMLIMAGE = , (rivers), Symbols/rivers.png, 0.2,0.2,P
+HTMLIMAGE = , (rivers_mini), Symbols/rivers.png, 0.15,0.15,P
+HTMLIMAGE = , (terraces), Symbols/terraces.png, 0.2,0.2,P
+HTMLIMAGE = , (terraces_mini), Symbols/terraces.png, 0.15,0.15,P
+HTMLIMAGE = , (bulls), Symbols/bulls.png, 0.2,0.2,P
+HTMLIMAGE = , (bulls_mini), Symbols/bulls.png, 0.15,0.15,P
+HTMLIMAGE = , (food_subtype), Symbols/food_subtype.png, 0.2,0.2,P
+HTMLIMAGE = , (stability_subtype), Symbols/stability_subtype.png, 0.2,0.2,P
+HTMLIMAGE = , (might_subtype), Symbols/might_subtype.png, 0.2,0.2,P
+HTMLIMAGE = , (influence_subtype), Symbols/influence_subtype.png, 0.2,0.2,P
+
+VISUAL=, 10, 10
+;Title Font
+HTMLFONT=TitleFont,Arial,16,B,#000000,CENTER
+;SubFont
+HTMLFONT=SubFont,Arial,8,U,#000000
+;FlavourFont
+HTMLFONT=FlavourFont,Arial,8,I,#000000,CENTER
+;ClockOutcomeFont
+HTMLFONT=ClockOutcome,Arial,10,,#000000,LEFT
+;SpendFont
+HTMLFONT=SpendFont,Arial,8,,#000000,CENTER
+;EffectFont
+HTMLFONT=EffectFont,Arial,8,,#000000,CENTER
+;Trigger/Else Font
+HTMLFONT=TriggerElse,Arial,12,B,#000000,CENTER
+;Title
+HTMLTEXT="1-{(TITLE)}",[TITLE],{811/50}%,{3809/900}%,{23441/300}%,{1317/50}%,#FFFFFF,0,,100,TitleFont
+;Flavour
+HTMLTEXT="1-{(FLAVOUR)}",[FLAVOUR],{5923/600}%,{14173/180}%,{6019/75}%,{7027/450}%,#FFFFFF,0,,100,FlavourFont
+;IF Statement
+HTMLTEXT="1-{(TRIGGER CONDITION)}",[TRIGGER CONDITION],{751/75}%,{27347/900}%,{7983/100}%,{8551/900}%,#FFFFFF,0,,100,TriggerElse
+HTMLFONT=FontName,Arial,32,,#000000
+;GoodOutcome
+HTMLTEXT="1-{(TRIGGER CONSEQUENCE)}",[TRIGGER CONSEQUENCE],{208/25}%,{35813/900}%,{25007/300}%,{2963/300}%,#FFFFFF,0,,100,EffectFont
+RECTANGLE=,{299/20}%,{3031/60}%,{42059/600}%,{148/225}%,#000000
+HTMLTEXT="1-{(ELSE TEXT)}",[ELSE TEXT],{10409/600}%,{23791/450}%,{3251/50}%,{649/100}%,#FFFFFF,0,,100,TriggerElse
+HTMLTEXT="1-{(ELSE CONSEQUENCE)}",[ELSE CONSEQUENCE],{2031/200}%,{10871/180}%,{2031/25}%,{3323/225}%,#FFFFFF,0,,100,EffectFont
+ENDVISUAL
+
+DISPLAY = "Actions Type D.png", ,, 10x5
