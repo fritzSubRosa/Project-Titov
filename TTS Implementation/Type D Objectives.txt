@@ -1,6 +1,6 @@
 ;Uncomment this in order to prodce deck in entirety.
 ;LINKMULTI = Count
-LINK = "1iMPmey1Bsb8MEWvrj-sU0RjB1JXHKnG8AiwxZh5LG8o&441940663&gid=1037548075
+LINK = "1iMPmey1Bsb8MEWvrj-sU0RjB1JXHKnG8AiwxZh5LG8o&441940663&gid=1647810023
 
 ; Settings
 UNIT = INCH
@@ -10,12 +10,17 @@ CARDSIZE = 2.75, 4.75
 
 ;Clocks
 HTMLIMAGE = , (twoClock), Symbols/twoClock.png, 0.3,0.3,P
+HTMLIMAGE = , (twoClock_max), Symbols/twoClock.png, 0.5,0.5,P
 HTMLIMAGE = , (threeClock), Symbols/threeClock.png, 0.3,0.3,P
+HTMLIMAGE = , (threeClock_max), Symbols/threeClock.png, 0.5,0.5,P
 HTMLIMAGE = , (fourClock), Symbols/fourClock.png, 0.3,0.3,P
+HTMLIMAGE = , (fourClock_max), Symbols/fourClock.png, 0.5,0.5,P
 HTMLIMAGE = , (sixClock), Symbols/sixClock.png, 0.3,0.3,P
+HTMLIMAGE = , (sixClock_max), Symbols/sixClock.png, 0.5,0.5,P
 
 ;War Sizes
 HTMLIMAGE = , (sixWar), Symbols/sixWar.png, 3.0,0.6,P
+HTMLIMAGE = , (fourWar), Symbols/fourWar.png, 3.0,0.6,P
 
 ;Resources
 HTMLIMAGE = , (food), Symbols/food.png, 0.2,0.2,P
@@ -29,7 +34,6 @@ HTMLIMAGE = , (influence_mini), Symbols/influence.png, 0.15,0.15,P
 HTMLIMAGE = , (trade_good), Symbols/trade_good.png, 0.2,0.2,P
 HTMLIMAGE = , (trade_good_mini), Symbols/trade_good.png, 0.15,0.15,P
 HTMLIMAGE = , (any), Symbols/any.png, 0.2,0.2,P
-HTMLIMAGE = , (any_mini), Symbols/any.png, 0.15,0.15,P
 
 ;Actions
 HTMLIMAGE = , (draw_card), Symbols/draw.png, 0.2,0.2,P
@@ -37,7 +41,6 @@ HTMLIMAGE = , (draw_card_mini), Symbols/draw.png, 0.15,0.15,P
 HTMLIMAGE = , (disrupt), Symbols/disrupt.png, 0.2,0.2,P
 HTMLIMAGE = , (delay), Symbols/delay.png, 0.2,0.2,P
 HTMLIMAGE = , (scout), Symbols/scout.png, 0.2,0.2,P
-HTMLIMAGE = , (scout_mini), Symbols/scout.png, 0.15,0.15,P
 HTMLIMAGE = , (recur), Symbols/recur.png, 0.2,0.2,P
 HTMLIMAGE = , (recur_mini), Symbols/recur.png, 0.15,0.15,P
 HTMLIMAGE = , (reshuffle), Symbols/reshuffle.png, 0.2,0.2,P
@@ -157,39 +160,31 @@ HTMLFONT=TriggerElse,Arial,12,B,#000000,CENTER
 ;Timer Outcome Text
 HTMLFONT=TimerOutcome,Arial,8,,#000000
 ;HeaderFont
-HTMLFONT=HeaderFont,Arial,10,B,#000000,CENTER
+HTMLFONT=HeaderFont,Arial,12,B,#000000,CENTER
 ;TriggerFont
-HTMLFONT=TriggerFont,Arial,8,,#000000,CENTER
+HTMLFONT=TriggerFont,Arial,10,,#000000,CENTER
 ;OutcomeFont
 HTMLFONT=OutcomeFont,Arial,8,,#000000
+;MonumentEffectFont
+HTMLFONT=MonumentEffectFont,Arial,12,I,#000000,CENTER
 ;ID Number Font
 HTMLFONT=IDFont,Arial,6,,#000000
 ;Title
-HTMLTEXT="1-{(TITLE)}",[TITLE],{4489/463}%,{1291/400}%,{36983/463}%,{12743/800}%,#FFFFFF,0,,100,TitleFont
-;Timer
-HTMLTEXT="1-{(TIMER)}",[TIMER],{1795/463}%,{18077/200}%,{5724/463}%,{6063/800}%
-;Timer Outcome
-HTMLTEXT="1-{(TIMER OUTCOME)}",[TIMER OUTCOME],{8754/463}%,{71971/800}%,{35468/463}%,{1381/160}%,#FFFFFF,0,,100,TimerOutcome
+HTMLTEXT="1-{(TITLE)}",[TITLE],{4489/463}%,{1291/400}%,{36983/463}%,{2849/200}%,#FFFFFF,0,,100,TitleFont
 ;Flavour
-HTMLTEXT="1-{(FLAVOUR)}",[FLAVOUR],{4545/463}%,{631/32}%,{37208/463}%,{307/25}%,#FFFFFF,0,,100,FlavourFont
+HTMLTEXT="1-{(FLAVOUR)}",[FLAVOUR],{4545/463}%,{14877/800}%,{37208/463}%,{307/25}%,#FFFFFF,0,,100,FlavourFont
 ;Timer Divider
 RECTANGLE=,0%,{34919/400}%,100%,{673/800}%,#000000
-;Header A
-HTMLTEXT="1-{(DILEMMA CHOICE A)}",[DILEMMA CHOICE A],{5107/463}%,{14091/400}%,{37488/463}%,{821/100}%,#FFFFFF,0,,100,HeaderFont
-;Trigger A
-HTMLTEXT="1-{(DILEMMA TRIGGER A)}",[DILEMMA TRIGGER A],{4938/463}%,{15747/400}%,{37657/463}%,{5557/800}%,#FFFFFF,0,,100,TriggerFont
-;Outcome A
-HTMLTEXT="1-{(DILEMMA EFFECT A)}",[DILEMMA EFFECT A],{6229/463}%,{35929/800}%,{35580/463}%,{183/16}%,#FFFFFF,0,,100,OutcomeFont
-BUTTON=,{2300/463}%,32%,{42988/463}%,{21277/800}%,5%,I
-BUTTON=,{2244/463}%,{47831/800}%,{42764/463}%,{10077/400}%,5%,I
-;Header B
-HTMLTEXT="1-{(DILEMMA CHOICE B)}",[DILEMMA CHOICE B],{5107/463}%,{1015/16}%,{37264/463}%,{2891/400}%,#FFFFFF,0,,100,HeaderFont
-;Trigger B
-HTMLTEXT="1-{(DILEMMA TRIGGER B)}",[DILEMMA TRIGGER B],{5050/463}%,{54007/800}%,{39060/463}%,{2049/400}%,#FFFFFF,0,,100,TriggerFont
-;Outcome B
-HTMLTEXT="1-{(DILEMMA EFFECT B)}",[DILEMMA EFFECT B],{6229/463}%,{58273/800}%,{36815/463}%,{4491/400}%,#FFFFFF,0,,100,OutcomeFont
+BUTTON=,{1627/463}%,{14961/400}%,{42988/463}%,{6703/160}%,5%,I
 ;ID Number
 HTMLTEXT="1-{(CARD ID)}",[CARD ID],{41810/463}%,{477/400}%,{3591/463}%,{449/100}%,#FFFFFF,0,,100,IDFont
+;Monument Effect
+HTMLTEXT="1-{(EFFECT)}",[EFFECT],{15040/463}%,{1047/20}%,{29126/463}%,{12547/400}%,#FFFFFF,0,,100,MonumentEffectFont
+;MonumentClock
+HTMLTEXT="1-{(CLOCK COUNT)}",[CLOCK COUNT],{5275/463}%,{42329/800}%,{9035/463}%,{4519/400}%
+HTMLTEXT="1-{(DILEMMA CHOICE A)}",[DILEMMA CHOICE A],{6734/463}%,{33403/800}%,{32830/463}%,{7691/800}%,#FFFFFF,0,,100,HeaderFont
+HTMLTEXT="1-{(DILEMMA TRIGGER A)}",[DILEMMA TRIGGER A],{8249/463}%,{7343/160}%,{29800/463}%,{449/100}%,#FFFFFF,0,,100,TriggerFont
+HTMLTEXT="1-{(TIMER)}",[TIMER],{1739/463}%,{72477/800}%,{5163/463}%,{5221/800}%
+HTMLTEXT="1-{(TIMER OUTCOME)}",[TIMER OUTCOME],{9259/463}%,92%,{17341/463}%,{2049/400}%,#FFFFFF,0,,100,TimerOutcome
 ENDVISUAL
-
-DISPLAY="Objectives Type A.png",,,10x5
+DISPLAY = "Objectives Type D.png", ,, 10x5

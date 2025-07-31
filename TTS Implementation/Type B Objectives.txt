@@ -1,6 +1,6 @@
 ;Uncomment this in order to prodce deck in entirety.
-;LINKMULTI = Count
-LINK = "1iMPmey1Bsb8MEWvrj-sU0RjB1JXHKnG8AiwxZh5LG8o&441940663&gid=1037548075
+LINKMULTI = Count
+LINK = "1iMPmey1Bsb8MEWvrj-sU0RjB1JXHKnG8AiwxZh5LG8o&441940663&gid=394122581
 
 ; Settings
 UNIT = INCH
@@ -16,6 +16,7 @@ HTMLIMAGE = , (sixClock), Symbols/sixClock.png, 0.3,0.3,P
 
 ;War Sizes
 HTMLIMAGE = , (sixWar), Symbols/sixWar.png, 3.0,0.6,P
+HTMLIMAGE = , (fourWar), Symbols/fourWar.png, 3.0,0.6,P
 
 ;Resources
 HTMLIMAGE = , (food), Symbols/food.png, 0.2,0.2,P
@@ -29,7 +30,6 @@ HTMLIMAGE = , (influence_mini), Symbols/influence.png, 0.15,0.15,P
 HTMLIMAGE = , (trade_good), Symbols/trade_good.png, 0.2,0.2,P
 HTMLIMAGE = , (trade_good_mini), Symbols/trade_good.png, 0.15,0.15,P
 HTMLIMAGE = , (any), Symbols/any.png, 0.2,0.2,P
-HTMLIMAGE = , (any_mini), Symbols/any.png, 0.15,0.15,P
 
 ;Actions
 HTMLIMAGE = , (draw_card), Symbols/draw.png, 0.2,0.2,P
@@ -37,7 +37,6 @@ HTMLIMAGE = , (draw_card_mini), Symbols/draw.png, 0.15,0.15,P
 HTMLIMAGE = , (disrupt), Symbols/disrupt.png, 0.2,0.2,P
 HTMLIMAGE = , (delay), Symbols/delay.png, 0.2,0.2,P
 HTMLIMAGE = , (scout), Symbols/scout.png, 0.2,0.2,P
-HTMLIMAGE = , (scout_mini), Symbols/scout.png, 0.15,0.15,P
 HTMLIMAGE = , (recur), Symbols/recur.png, 0.2,0.2,P
 HTMLIMAGE = , (recur_mini), Symbols/recur.png, 0.15,0.15,P
 HTMLIMAGE = , (reshuffle), Symbols/reshuffle.png, 0.2,0.2,P
@@ -107,9 +106,7 @@ HTMLIMAGE = , (defeat), Symbols/defeat.png, 0.2,0.2,P
 ;Objective Subtypes
 HTMLIMAGE = , (inevitable), Symbols/inevitable.png, 0.2,0.2,P
 HTMLIMAGE = , (cataclysm), Symbols/cataclysm.png, 0.2,0.2,P
-HTMLIMAGE = , (cataclysm_mini), Symbols/cataclysm.png, 0.15,0.15,P
-HTMLIMAGE = , (trade), Symbols/trade.png, 0.2,0.2,P
-HTMLIMAGE = , (trade_mini), Symbols/trade.png, 0.15,0.15,P
+HTMLIMAGE = , (cataclysm_mini), Symbols/cataclysm.png, 0.2,0.2,P
 
 ;Province Subtypes
 HTMLIMAGE = , (province), Symbols/province.png, 0.2,0.2,P
@@ -151,45 +148,57 @@ HTMLFONT=ClockOutcome,Arial,10,,#000000,LEFT
 ;SpendFont
 HTMLFONT=SpendFont,Arial,8,,#000000,CENTER
 ;EffectFont
-HTMLFONT=EffectFont,Arial,8,,#000000,CENTER
+HTMLFONT=EffectFont,Arial,8,,#000000,LEFT
 ;Trigger/Else Font
 HTMLFONT=TriggerElse,Arial,12,B,#000000,CENTER
 ;Timer Outcome Text
 HTMLFONT=TimerOutcome,Arial,8,,#000000
 ;HeaderFont
-HTMLFONT=HeaderFont,Arial,10,B,#000000,CENTER
+HTMLFONT=HeaderFont,Arial,12,B,#000000,CENTER
 ;TriggerFont
-HTMLFONT=TriggerFont,Arial,8,,#000000,CENTER
+HTMLFONT=TriggerFont,Arial,10,,#000000,CENTER
 ;OutcomeFont
 HTMLFONT=OutcomeFont,Arial,8,,#000000
+;War Counter
+HTMLFONT=WarCounter,Arial,12,,#000000,CENTER
 ;ID Number Font
 HTMLFONT=IDFont,Arial,6,,#000000
 ;Title
-HTMLTEXT="1-{(TITLE)}",[TITLE],{4489/463}%,{1291/400}%,{36983/463}%,{12743/800}%,#FFFFFF,0,,100,TitleFont
+HTMLTEXT="1-{(TITLE)}",[TITLE],{4489/463}%,{1291/400}%,{36983/463}%,{1649/100}%,#FFFFFF,0,,100,TitleFont
 ;Timer
 HTMLTEXT="1-{(TIMER)}",[TIMER],{1795/463}%,{18077/200}%,{5724/463}%,{6063/800}%
 ;Timer Outcome
-HTMLTEXT="1-{(TIMER OUTCOME)}",[TIMER OUTCOME],{8754/463}%,{71971/800}%,{35468/463}%,{1381/160}%,#FFFFFF,0,,100,TimerOutcome
-;Flavour
-HTMLTEXT="1-{(FLAVOUR)}",[FLAVOUR],{4545/463}%,{631/32}%,{37208/463}%,{307/25}%,#FFFFFF,0,,100,FlavourFont
-;Timer Divider
-RECTANGLE=,0%,{34919/400}%,100%,{673/800}%,#000000
-;Header A
-HTMLTEXT="1-{(DILEMMA CHOICE A)}",[DILEMMA CHOICE A],{5107/463}%,{14091/400}%,{37488/463}%,{821/100}%,#FFFFFF,0,,100,HeaderFont
-;Trigger A
-HTMLTEXT="1-{(DILEMMA TRIGGER A)}",[DILEMMA TRIGGER A],{4938/463}%,{15747/400}%,{37657/463}%,{5557/800}%,#FFFFFF,0,,100,TriggerFont
-;Outcome A
-HTMLTEXT="1-{(DILEMMA EFFECT A)}",[DILEMMA EFFECT A],{6229/463}%,{35929/800}%,{35580/463}%,{183/16}%,#FFFFFF,0,,100,OutcomeFont
-BUTTON=,{2300/463}%,32%,{42988/463}%,{21277/800}%,5%,I
-BUTTON=,{2244/463}%,{47831/800}%,{42764/463}%,{10077/400}%,5%,I
-;Header B
-HTMLTEXT="1-{(DILEMMA CHOICE B)}",[DILEMMA CHOICE B],{5107/463}%,{1015/16}%,{37264/463}%,{2891/400}%,#FFFFFF,0,,100,HeaderFont
-;Trigger B
-HTMLTEXT="1-{(DILEMMA TRIGGER B)}",[DILEMMA TRIGGER B],{5050/463}%,{54007/800}%,{39060/463}%,{2049/400}%,#FFFFFF,0,,100,TriggerFont
-;Outcome B
-HTMLTEXT="1-{(DILEMMA EFFECT B)}",[DILEMMA EFFECT B],{6229/463}%,{58273/800}%,{36815/463}%,{4491/400}%,#FFFFFF,0,,100,OutcomeFont
+HTMLTEXT="1-{(TIMER OUTCOME)}",[TIMER OUTCOME],{8530/463}%,{2935/32}%,{34458/463}%,{3929/800}%,#FFFFFF,0,,100,TimerOutcome
 ;ID Number
-HTMLTEXT="1-{(CARD ID)}",[CARD ID],{41810/463}%,{477/400}%,{3591/463}%,{449/100}%,#FFFFFF,0,,100,IDFont
+HTMLTEXT="1-{(CARD ID)}",[CARD ID],{41417/463}%,{247/160}%,{4096/463}%,{2189/800}%,#FFFFFF,0,,100,IDFont
+;Flavour
+HTMLTEXT="1-{(FLAVOUR)}",[FLAVOUR],{4545/463}%,{2021/100}%,{37208/463}%,{307/25}%,#FFFFFF,0,,100,FlavourFont
+;War
+HTMLTEXT="1-{(WAR SIZE)}",[WAR SIZE],{2357/463}%,{26161/800}%,{43044/463}%,{11003/800}%
+;FrontlineFour
+HTMLTEXT=10-15,[MARKER],{10214/463}%,{1807/50}%,{5163/463}%,{5277/800}%
+;FrontlineSix
+HTMLTEXT="1-9,16-18",[MARKER],{6902/463}%,{1821/50}%,{5275/463}%,{1291/200}%
+;Advance Requirement
+HTMLTEXT="1-{(ADV. REQUIREMENT)}",[ADV. REQUIREMENT],{9765/463}%,52%,{26713/463}%,{3761/800}%,#FFFFFF,0,,100,WarCounter
+;Retreat Rate
+HTMLTEXT="1-{(RETREAT RATE)}",[RETREAT RATE],{9428/463}%,{1127/20}%,{27443/463}%,{5221/800}%,#FFFFFF,0,,100,WarCounter
+;Victory Icon
+HTMLTEXT="1-{(VICTORY ICON)}",[VICTORY ICON],{42090/463}%,{29473/800}%,{3591/463}%,{449/100}%,#FFFFFF,0,,100,EffectFont
+;Victory Result
+HTMLTEXT="1-{(VICTORY)}",[VICTORY],{4994/463}%,{12449/200}%,{38162/463}%,{9207/800}%,#FFFFFF,0,,100,EffectFont
+;Defeat Icon
+HTMLTEXT="1-{(DEFEAT ICON)}",[DEFEAT ICON],{897/463}%,{14849/400}%,{3591/463}%,{2021/400}%
+;Defeat Result
+HTMLTEXT="1-{(DEFEAT)}",[DEFEAT],{4938/463}%,{60463/800}%,{38443/463}%,{621/50}%,#FFFFFF,0,,100,EffectFont
+;Timer Divider
+RECTANGLE=1-9,0%,{34919/400}%,100%,{673/800}%,#000000
+BUTTON=,{6173/463}%,{38287/800}%,{34009/463}%,{621/50}%,5%,I
+;Escalation Text
+HTMLTEXT=10-14,[ESCALATION],{6061/463}%,{8821/100}%,{34177/463}%,{1527/160}%,#FFFFFF,0,,100,EffectFont
 ENDVISUAL
 
-DISPLAY="Objectives Type A.png",,,10x5
+DISPLAY = "Objectives Type B.png", ,, 10x5
+
+;Minirun
+DISPLAY = "Objectives Type B Hotfix.png", ,, 10x2
