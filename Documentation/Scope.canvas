@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"ae7bee74c5d3d29d","type":"file","file":"Projects/Jagged Time/Index.md","x":-662,"y":-602,"width":534,"height":1024},
+		{"id":"b5eb69a0d4abd164","type":"text","text":"# Setup\n1. Set milestones\n2. Set Objectives \n3. Set Hand \n4. Set Agenda","x":372,"y":-508,"width":290,"height":190},
+		{"id":"8e80dddebdba16d8","type":"text","text":"# Game starts","x":-8,"y":-443,"width":250,"height":60},
+		{"id":"ede6e628ddd7b700","type":"text","text":"# Crisis Phase \nResolve objectives and Progress Milestones","x":372,"y":-211,"width":240,"height":113},
+		{"id":"90f36c544dcf6608","type":"text","text":"# Action Phase\nPlayer plays their hand","x":-8,"y":-211,"width":250,"height":113},
+		{"id":"d992bedf0257fa42","type":"text","text":"# Reset Phase\nTimers advance","x":372,"y":-18,"width":240,"height":100},
+		{"id":"99992aee0f31e8fb","type":"text","text":"- Every card triggers some actions in a way that effect game state\n- Game state includes:\n\t1. Resources\n\t2. Milestones \n\t3. Current Hand \n\t4. Current Agenda \n\t5. Current Objectives deck \n\t6. Timers on Cards\n- Should track history of how cards were played","x":40,"y":177,"width":272,"height":425}
+	],
+	"edges":[
+		{"id":"8e838cc5b3272e70","fromNode":"b5eb69a0d4abd164","fromSide":"bottom","toNode":"90f36c544dcf6608","toSide":"top"},
+		{"id":"dc56696e15e652a5","fromNode":"8e80dddebdba16d8","fromSide":"right","toNode":"b5eb69a0d4abd164","toSide":"left"},
+		{"id":"5442f02c93b4c299","fromNode":"ede6e628ddd7b700","fromSide":"bottom","toNode":"d992bedf0257fa42","toSide":"top"},
+		{"id":"8d093befbb8e8f06","fromNode":"90f36c544dcf6608","fromSide":"right","toNode":"ede6e628ddd7b700","toSide":"left"}
+	]
+}
