@@ -1,0 +1,4 @@
+ID,TITLE,SUBTYPE,FOOD,STABILITY,INFLUENCE,MIGHT,TRADE_GOODS,ANY
+public_rituals,Public Rituals,MAAT,1,0,0,0,0,0
+tax_collection,Tax Collection,STATECRAFT,0,1,0,0,0,0
+seditious_priests,Seditious Priests,MAAT,0,0,0,0,0,2
